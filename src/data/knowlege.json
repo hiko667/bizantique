@@ -1,0 +1,72 @@
+[
+  {
+    "id": "n1",
+    "name": "Alicja",
+    "colorHex": "#e74c3c",
+    "description": "Liderka zespołu projektowego.",
+    "connections": ["n2", "n3", "n5"]
+  },
+  {
+    "id": "n2",
+    "name": "Bartek",
+    "colorHex": "#3498db",
+    "description": "Programista frontendowy.",
+    "connections": ["n1", "n4"]
+  },
+  {
+    "id": "n3",
+    "name": "Celina",
+    "colorHex": "#2ecc71",
+    "description": "Inżynier jakości oprogramowania.",
+    "connections": ["n1", "n4", "n6"]
+  },
+  {
+    "id": "n4",
+    "name": "Dawid",
+    "colorHex": "#f1c40f",
+    "description": "Analityk danych systemowych.",
+    "connections": ["n2", "n3", "n7"]
+  },
+  {
+    "id": "n5",
+    "name": "Ewa",
+    "colorHex": "#9b59b6",
+    "description": "Projektantka interfejsów użytkownika.",
+    "connections": ["n1", "n6"]
+  },
+  {
+    "id": "n6",
+    "name": "Filip",
+    "colorHex": "#1abc9c",
+    "description": "Administrator infrastruktury sieciowej.",
+    "connections": ["n3", "n5", "n8"]
+  },
+  {
+    "id": "n7",
+    "name": "Gosia",
+    "colorHex": "#e67e22",
+    "description": "Specjalistka do spraw marketingu.",
+    "connections": ["n4", "n8"]
+  },
+  {
+    "id": "n8",
+    "name": "Hubert",
+    "colorHex": "#34495e",
+    "description": "Kierownik działu operacyjnego.",
+    "connections": ["n6", "n7", "n9"]
+  },
+  {
+    "id": "n9",
+    "name": "Iga",
+    "colorHex": "#e84393",
+    "description": "Konsultantka do spraw wsparcia klienta.",
+    "connections": ["n8"]
+  },
+  {
+    "id": "n10",
+    "name": "Jan",
+    "colorHex": "#00cec9",
+    "description": "Zewnętrzny audytor bezpieczeństwa.",
+    "connections": []
+  }
+]
