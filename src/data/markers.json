@@ -1,0 +1,19 @@
+
+[
+    {
+        "id" : "cathedral",
+        "name" : "Katedra Św. Gilberta",
+        "description" : "Katedra Świętego Gilberta jest jednym z centralnych elementów Miasta Przodków. Założona przez pierwszego Kardynała Bizantque, wznoszona była przez niemal dwieście lat. Jej dwie bliźniacze wieże wyposażone są w kompleksowy system nagłośnienia, odpowiedzialny za wydawanie ostrzeżeń, a także informowanie mieszkańców o stanie postępów wojskowych.",
+        "img" : "",
+        "x" : 1084,
+        "y" : 900
+    },
+    {
+        "id" : "id",
+        "name" : "",
+        "description" : "",
+        "img" : "",
+        "x" : 100,
+        "y" : 900
+    }
+]
