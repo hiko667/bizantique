@@ -1,72 +1,434 @@
 [
-  {
-    "id": "n1",
-    "name": "Alicja",
-    "colorHex": "#e74c3c",
-    "description": "Liderka zespołu projektowego.",
-    "connections": ["n2", "n3", "n5"]
-  },
-  {
-    "id": "n2",
-    "name": "Bartek",
-    "colorHex": "#3498db",
-    "description": "Programista frontendowy.",
-    "connections": ["n1", "n4"]
-  },
-  {
-    "id": "n3",
-    "name": "Celina",
-    "colorHex": "#2ecc71",
-    "description": "Inżynier jakości oprogramowania.",
-    "connections": ["n1", "n4", "n6"]
-  },
-  {
-    "id": "n4",
-    "name": "Dawid",
-    "colorHex": "#f1c40f",
-    "description": "Analityk danych systemowych.",
-    "connections": ["n2", "n3", "n7"]
-  },
-  {
-    "id": "n5",
-    "name": "Ewa",
-    "colorHex": "#9b59b6",
-    "description": "Projektantka interfejsów użytkownika.",
-    "connections": ["n1", "n6"]
-  },
-  {
-    "id": "n6",
-    "name": "Filip",
-    "colorHex": "#1abc9c",
-    "description": "Administrator infrastruktury sieciowej.",
-    "connections": ["n3", "n5", "n8"]
-  },
-  {
-    "id": "n7",
-    "name": "Gosia",
-    "colorHex": "#e67e22",
-    "description": "Specjalistka do spraw marketingu.",
-    "connections": ["n4", "n8"]
-  },
-  {
-    "id": "n8",
-    "name": "Hubert",
-    "colorHex": "#34495e",
-    "description": "Kierownik działu operacyjnego.",
-    "connections": ["n6", "n7", "n9"]
-  },
-  {
-    "id": "n9",
-    "name": "Iga",
-    "colorHex": "#e84393",
-    "description": "Konsultantka do spraw wsparcia klienta.",
-    "connections": ["n8"]
-  },
-  {
-    "id": "n10",
-    "name": "Jan",
-    "colorHex": "#00cec9",
-    "description": "Zewnętrzny audytor bezpieczeństwa.",
-    "connections": []
-  }
+    {
+    "id": "ignis",
+    "name": "Ignis",
+    "colorHex": "#FFFFFF",
+    "description": "",
+    "connections": [],
+    "img": ""
+    },
+    {
+    "id": "races",
+    "name": "Rasy Ignis",
+    "colorHex": "#bf1804",
+    "description": "Tworząc postać w świecie Ignis zyskujesz dostęp do mnogich ras, zarówno pochodzących z PHB 5E, jak i oryginalnych. Warto zauważyć, że wiele z nich zmodyfikowano w celu lepszego wpasowania w świat przedstawiony ",
+    "connections": ["ignis"],
+    "img": ""
+    },
+    {
+    "id": "humans",
+    "name": "Ludzie",
+    "colorHex": "#c03e2e",
+    "description": "",
+    "connections": ["races"],
+    "img": ""
+    },
+    {
+    "id": "rihemians",
+    "name": "Riheimczycy",
+    "colorHex": "#ba675d",
+    "description": "Wywodzą się z Księstwa Riheimu, największego państwa Koalicji. Są ludem wielkich równin, stepów i winnic. Mówi się, że w Riheimie wszystko jest tak jakby bardziej kolorowe, co z resztą znajduje swoje odbicie w barwnych, niemal tęczowych powłóczystych szatach jakie noszą jego mieszkańcy. Społeczeństwo Księstwa rządzone jest przez Baronów. Każdy aspekt życia ma swojego Barona - wsie, kanalizacja, półświatek, wszędzie mniejsi i więksi Baronowie. Warto zauważyć, że Bizantique znajduje się na terenie Riheimu, a jednak jego mieszkańcy należą do wszystkich grup etnicznych świata i mają własną, niezależną kulturę. Tworząc rodzimego mieszkańca Bizantique nie sugeruj się niczym poniżej, lecz skorzystaj z Veterijskich imion",
+    "connections": ["humans"],
+    "img": ""
+    },
+    {
+    "id": "rubians",
+    "name": "Rubijczycy",
+    "colorHex": "#ba675d",
+    "description": "Rubijczycy są militarnym społeczeństwem wyznającym odłam Kościoła uznający ich nieśmiertelną Cesarzową (nazywaną Spaloną) za zapowiedzianego Mesjasza. Wszyscy pełnoprawni obywatele przechodzą szkolenie wojskowe między 17 a 19 rokiem życia, gdzie ich ego jest łamane i odbudowywane na nowo. Rubia jest państwem ksenofobicznym i nieufnym, a sami mieszkańcy rzadko przekraczają Wielki Mur ",
+    "connections": ["humans"],
+    "img": ""
+    },
+    {
+    "id": "skylandians",
+    "name": "Skylandczycy",
+    "colorHex": "#ba675d",
+    "description": "Skyland jest górzystym państwem małych wsi i sięgających ku niebu zamków. Jego lud jest bardzo przywiązany do tradycyjnych metod życia i z wielkim trudem przyjmuje zmiany. Sami skylandczycy są uczciwi i ciężko pracujący. W ich społeczeństwie nadal funkcjonuje instytucja rycerstwa, wraz z heraldyką i tytułami przysługującymi rycerzom ",
+    "connections": ["humans"],
+    "img": "https://images8.alphacoders.com/100/1001208.jpg"
+    },
+    {
+    "id": "slavians",
+    "name": "Slavijczycy",
+    "colorHex": "#ba675d",
+    "description": "Pochodzący z ciemnych lasów centralnego Ignis Slavijczycy są ludem niezwykle nieufnym, a w zasadzie nieufnym wobec obcych. Mówi się, że mają oni tendencję do złomiarstwa, zbierając technologię, broń i narzędzia innych kultur i dopasowując je do własnych potrzeb. Ponadto, Slavijczycy są bitni i szybcy do kłótni. Slavijskie lasy zamieszkują czarownice, których tamtejsi ludzie równie się boją, jak i szanują. Krążą legendy o Wykidajłach, stworzonych przez wiedźmy mutantach zdolnych do obrony wiosek i kradzieży dzieci. ",
+    "connections": ["humans"],
+    "img": "https://i.pinimg.com/736x/cb/8b/1d/cb8b1df7c89a071668f8f43ed6b60485.jpg"
+    },
+    {
+    "id": "eldans",
+    "name": "Eldanie",
+    "colorHex": "#ba675d",
+    "description": "Elda jest zbiorem zjednoczonych klanów gór północnego Ignis. Słynie z produkcji tytoniu i ze swoich sprawnych strzelców. Znalezienie eldańskiej osady graniczy z cudem - jej mieszkańcy są niezwykle dobrzy w ukrywaniu się. Eldańczycy są raczej spokojnym, pozbawionym zmartwień ludem o wiele bardziej ceniącym relaks niż wysiłek. Często zamieszkują jaskinie, przerobione na niezwykle komfortowe i chłodne domostwa.",
+    "connections": ["humans"],
+    "img": ""
+    },
+    {
+    "id": "islaners",
+    "name": "Ludzie z Wysp Szarych",
+    "colorHex": "#ba675d",
+    "description": "",
+    "connections": ["humans"],
+    "img": ""
+    },
+    {
+    "id": "thanians",
+    "name": "Thanijczycy",
+    "colorHex": "#ba675d",
+    "description": "Thania jest Republiką wyrosłą z Thalos, państwa założonego na wyspach Thanijskich przez zbiegłych niewolników w odległej Erze Dominium. Państwo charakteryzuje się niezwykłym rozwarstwieniem społecznym, między bogatą burżuazją a biednymi pracownikami fabryk. Parlament Thanijski podzielony jest między dwie frakcje: Błękitną Krew, przedstawicieli bogatych rodów i Czerwonych Magów, socjalistów dążących do równości poprzez progres. Północ, kontrolowana przez Krew jest regionem wysokich szczytów i niskich dolin - zarówno społecznie, technologicznie jak i geograficznie. Czerwone południe jest mniej ekstrawaganckie, ale za to o wiele bardziej humanitarne. Tanijczycy są pionierami technologii, odpowiadając za całokształt rewolucji przemysłowej Ignis.",
+    "connections": ["humans"],
+    "img": ""
+    },
+    {
+    "id": "saalits",
+    "name": "Saalici",
+    "colorHex": "#ba675d",
+    "description": "Krainy Sal definiuje pustynia, która oddziela je od reszty kontynentu. Saalici zamieszkują miasta Krain Sal, położone wzdłuż Rzeki Końca Świata przyczółki cywilizacji. Ich najbardziej charakterystyczną cechą jest ciemna skóra, przypominająca barwą ziemię, oraz niezwykły spryt wypracowany życiem w okrutnych warunkach. Krainy Saal są jedynym miejscem naturalnego występowania soli, a większość ich populacji stanowią niewolnicy pracujący w kopalniach i przy suszeniu morskiej wody. Warto zaznaczyć różnice religijne między poszczególnymi regionami Krain Sal. Północne miasta, Nikea, Sal Minorum i Sal Servi są oddanymi wyznawcami Pana Aniołów, z kolei Sal Harbour i miasta Baalitów są w oczywisty sposób sługami Baala.",
+    "connections": ["humans"],
+    "img": ""
+    },
+    {
+    "id": "goths",
+    "name": "Goci",
+    "colorHex": "#ba675d",
+    "description": "Wampirze miasta są niezbyt dobrze zbadanym fenomenem. Pojawiają się i znikają w różnych miejscach o różnej porze roku i dnia, nie podążając za żadnym schematem. Zamieszkują je goci, grupa etniczna o śnieżnobiałej skórze i czarnych jak noc włosach. Nigdy nie krzyczą, większośc ich komunikacji odbywa się szeptem. Mówi się, że ich nienaturalny wygląd jest wynikiem wampirzej krwii płynącej w ich czarnych żyłach. Nie jest to jednak potwierdzone, a sami goci nie lubią rozmawiać o Miastach z których pochodzą. ",
+    "connections": ["humans"],
+    "img": "https://pbs.twimg.com/media/El2aNcxXYAE6JQD.jpg"
+    },
+    {
+    "id": "aurans",
+    "name": "Auranie",
+    "colorHex": "#ba675d",
+    "description": "W czasach Dominium, przed Upadkiem i przed Wojnami Wiary istniał ród Cesarzy, władców Imperium i całego Ignis. Największym z nich, Zaraz po Belianie I był zdecydowanie Cyryl Pierwszy. Połączył on ludy Pierwszych Ludzi i Al Mahdi, spajając ludzkość w jeden, pełny twór. W nagrodę został pobłogosławiony przez Lux, Podtrzymującą patronkę Światła Słonecznego, która uczyniła jego potomków więcej niż tylko ludźmi. Wnuki Cyryla urodziły się ze złotymi oczami, które od tego momentu stały się symbolem arystokratycznego pochodzenia i wysokiego statusu. Auranie, bo o nich mowa, są dumnym odłamem ludzkości żyjącym w większych miastach. Ich złote oczy napełniają innych strachem, ale i oddaniem, czyniąc z nich idealnych przywódców. Wraz z czasem wyjątkowość i status Auran zaczęły zanikać. Dla arystokracji nadal są oni cennym zasobem – każda rodzina chcąca poszczycić się Dominijskim pochodzeniem pragnie mieć Aurańskie dzieci. Prowadzi to do traktowania małżonków jak formę mebli, bądź zasobu, który można wykorzystać jak bydło rozpłodowe. Oczy Auran są niezwykle cennymi komponentami magicznymi, czyniąc z nich obiekt pożądania łowców magicznych przedmiotów.",
+    "connections": ["humans"],
+    "img": "https://i.pinimg.com/1200x/53/3f/6a/533f6aa9cafb6734850e6cb08169d8c3.jpg"
+    },
+    {
+    "id": "gaistborn",
+    "name": "Uduchowieni",
+    "colorHex": "#ba675d",
+    "description": "Uduchowieni są specjalnym rodzajem ludzi, urodzonym z szczególnie silnym duchem. Od urodzenia są więksi, silniejsi i szybsi niż zwykli ludzie. Organizacją skupiającą Uduchowionych jest Zakon Świętego Maximusa, sformowany z czterech na pięć Zakonów Rycerskich. Silny duch może motywować człowieka do czynów niezwykle bohaterskich, jak i do niezwykle podłych, niegodnych. Upadli uduchowieni istnieją, a werbuje ich Zakon Synów Cyryla, pozostałość po Rycerskim Zakonie Lekarzy Plagi. Zakony Rycerskie były instytucjami Ery Apostazji, gdy każdy z nich odpowiadał jednemu z Starych Bogów. Wierzono wówczas, że gaist jest ostatnim oddechem Starych Bóstw i pierwszym  darem Pana Aniołów. Było tak do momentu, gdy Lekarze Plagi upadli. Mistrz ich zakonu wynalazł Eter, substancję rzekomo chroniącą przed wpływami herezji. Jej podstawowym działaniem było uplastycznienie umysłu. Biorący wierzył we wszystko, co myślał i żaden zewnętrzny argument nie był w stanie zmienić jego zdania. Eter wydawał się cudowną substancją, aż do momentu, gdy Lekarze zaczęli doświadczać epizodów psychozy. Sam Mistrz Zakonu oznajmił, że jest sekretnym dzieckiem Beliana II, Belianem III i, że na podstawie pochodzenia z linii i rodu Cyryla władza nad Ignis mu się należy. Przemianował zakon na Synów Cyryla w roku 530 wypowiedział wierność Kościołowi. W odpowiedzi, Najwyższy Pleban zadeklarował potrzebę sformowania nowej jednostki do walki z tym nowym zagrożeniem. Tak oto, cztery Zakony Rycerskie: Wygasłe Słońce, Żelazne Pióro, Złamany Miecz i Przewodnicy złączyły się w Zakon Świętego Maximusa, porzucając dawne różnice. ",
+    "connections": ["humans"],
+    "img": ""
+    },
+    {
+    "id": "elves",
+    "name": "Elfy",
+    "colorHex": "#c03e2e",
+    "description": "",
+    "connections": ["races"],
+    "img": ""
+    },
+    {
+    "id": "elves_forest",
+    "name": "Elfy Leśne",
+    "colorHex": "#ba675d",
+    "description": "",
+    "connections": ["elves"],
+    "img": ""
+    },
+    {
+    "id": "elves_white",
+    "name": "Elfy Białe",
+    "colorHex": "#ba675d",
+    "description": "",
+    "connections": ["elves", "sylvio"],
+    "img": ""
+    },
+    {
+    "id": "elves_desert",
+    "name": "Elfy Mroczne",
+    "colorHex": "#ba675d",
+    "description": "",
+    "connections": ["elves", "sal"],
+    "img": ""
+    },
+    {
+    "id": "elves_mourners",
+    "name": "Żałobnicy",
+    "colorHex": "#ba675d",
+    "description": "",
+    "connections": ["elves"],
+    "img": ""
+    },
+    {
+    "id": "dwarfs",
+    "name": "Krasnoludy",
+    "colorHex": "#c03e2e",
+    "description": "",
+    "connections": ["races", "islaners"],
+    "img": ""
+    },
+    {
+    "id": "magimathematics",
+    "name": "Magimtematyka",
+    "colorHex": "#0802b8",
+    "description": "",
+    "connections": ["dwarfs"],
+    "img": ""
+    },
+    {
+    "id": "halflings",
+    "name": "Niziołki",
+    "colorHex": "#c03e2e",
+    "description": "",
+    "connections": ["races"],
+    "img": ""
+    },
+    {
+    "id": "broods",
+    "name": "Pomioty",
+    "colorHex": "#c03e2e",
+    "description": "",
+    "connections": ["races"],
+    "img": ""
+    },
+    {
+    "id": "vespers",
+    "name": "Vesperowie",
+    "colorHex": "#ba675d",
+    "description": "",
+    "connections": ["broods", "geist"],
+    "img": ""
+    },
+    {
+    "id": "tieflings",
+    "name": "Diabelstwa",
+    "colorHex": "#ba675d",
+    "description": "",
+    "connections": ["broods", "darkgods"],
+    "img": ""
+    },
+    {
+    "id": "regions",
+    "name": "Regiony Świata",
+    "colorHex": "#707c4a",
+    "description": "",
+    "connections": ["ignis"],
+    "img": ""
+    },
+    {
+    "id": "rubia",
+    "name": "Święte Dominium Rubii",
+    "colorHex": "#698021",
+    "description": "",
+    "connections": ["regions", "rubians"],
+    "img": ""
+    },
+    {
+    "id": "riheim",
+    "name": "Księstwo Riheimu",
+    "colorHex": "#698021",
+    "description": "",
+    "connections": ["regions", "rihemians"],
+    "img": ""
+    },
+    {
+    "id": "skyland",
+    "name": "Księstwo Skylandu",
+    "colorHex": "#698021",
+    "description": "",
+    "connections": ["regions", "skylandians"],
+    "img": ""
+    },
+    {
+    "id": "elda",
+    "name": "Elda",
+    "colorHex": "#698021",
+    "description": "",
+    "connections": ["regions", "eldans"],
+    "img": ""
+    },
+    {
+    "id": "slavia",
+    "name": "Królestwo Slavii",
+    "colorHex": "#698021",
+    "description": "",
+    "connections": ["regions", "slavians"],
+    "img": ""
+    },
+    {
+    "id": "sal",
+    "name": "Krainy Sal",
+    "colorHex": "#698021",
+    "description": "",
+    "connections": ["regions", "saalits"],
+    "img": ""
+    },
+    {
+    "id": "thania",
+    "name": "Republika Thani",
+    "colorHex": "#698021",
+    "description": "",
+    "connections": ["regions", "thanians"],
+    "img": ""
+    },
+    {
+    "id": "isles",
+    "name": "Wyspy Szare",
+    "colorHex": "#698021",
+    "description": "",
+    "connections": ["regions", "islaners"],
+    "img": ""
+    },
+    {
+    "id": "bizantique",
+    "name": "Bizantique",
+    "colorHex": "#698021",
+    "description": "",
+    "connections": ["regions"],
+    "img": ""
+    },
+    {
+    "id": "blessed",
+    "name": "Wyspy Błogosławione",
+    "colorHex": "#698021",
+    "description": "",
+    "connections": ["regions", "elves_white", "sylvio"],
+    "img": ""
+    },
+    {
+    "id": "north",
+    "name": "Czarcia Północ",
+    "colorHex": "#698021",
+    "description": "",
+    "connections": ["regions", "belian"],
+    "img": ""
+    },
+    {
+    "id": "halfling_north",
+    "name": "Pustkowia Północy",
+    "colorHex": "#698021",
+    "description": "",
+    "connections": ["regions", "halflings", "archons"],
+    "img": ""
+    },
+    {
+    "id": "religions",
+    "name": "Religie",
+    "colorHex": "#c4760c",
+    "description": "",
+    "connections": ["ignis"],
+    "img": ""
+    },
+    {
+    "id": "geist",
+    "name": "Kościół Pana Aniołów",
+    "colorHex": "#c28737",
+    "description": "",
+    "connections": ["religions"],
+    "img": "Geist.png"
+    },
+    {
+    "id": "darkgods",
+    "name": "Kulty Mrocznych Bogów",
+    "colorHex": "#c28737",
+    "description": "",
+    "connections": ["religions"],
+    "img": ""
+    },
+    {
+    "id": "tor",
+    "name": "Kult Tora",
+    "colorHex": "#fc0509",
+    "description": "",
+    "connections": ["darkgods"],
+    "img": "Tor.png"
+    },
+    {
+    "id": "namul",
+    "name": "Kult Namula",
+    "colorHex": "#530db5",
+    "description": "",
+    "connections": ["darkgods"],
+    "img": "Namul.png"
+    },
+    {
+    "id": "hangron",
+    "name": "Kult Hangrona",
+    "colorHex": "#09630f",
+    "description": "",
+    "connections": ["darkgods"],
+    "img": "Hangron.png"
+    },
+    {
+    "id": "belian",
+    "name": "Kult Beliana Księcia Demonów",
+    "colorHex": "#fc7005",
+    "description": "",
+    "connections": ["darkgods"],
+    "img": "Belian.png"
+    },
+    {
+    "id": "baal",
+    "name": "Kult Baala",
+    "colorHex": "#c28737",
+    "description": "",
+    "connections": ["religions"],
+    "img": ""
+    },
+    {
+    "id": "chorax",
+    "name": "Kościół Zatopionego",
+    "colorHex": "#c28737",
+    "description": "",
+    "connections": ["religions", "islaners"],
+    "img": "Zatopiony.png"
+    },
+    {
+    "id": "sylvio",
+    "name": "Kult Sylvio",
+    "colorHex": "#c28737",
+    "description": "",
+    "connections": ["religions"],
+    "img": ""
+    },
+    {
+    "id": "archons",
+    "name": "Religie Niziołków",
+    "colorHex": "#c28737",
+    "description": "",
+    "connections": ["religions", "halflings"],
+    "img": ""
+    },
+    {
+    "id": "sun",
+    "name": "Wieczne Słońce",
+    "colorHex": "#c28737",
+    "description": "",
+    "connections": ["religions"],
+    "img": ""
+    },
+    {
+    "id": "monsters",
+    "name": "Potwory i zagrorzenia",
+    "colorHex": "#e302db",
+    "description": "",
+    "connections": ["ignis"],
+    "img": ""
+    },
+    {
+    "id": "vampires",
+    "name": "Wampiry",
+    "colorHex": "#de40d8",
+    "description": "",
+    "connections": ["monsters", "goths"],
+    "img": ""
+    },
+    {
+    "id": "legions",
+    "name": "Legiony Heretyckie",
+    "colorHex": "#de40d8",
+    "description": "",
+    "connections": ["monsters", "darkgods"],
+    "img": ""
+    },
+    {
+    "id": "t",
+    "name": "",
+    "colorHex": "",
+    "description": "",
+    "connections": [],
+    "img": ""
+    }
 ]

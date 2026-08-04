@@ -1,5 +1,7 @@
 import React, { useMemo, useRef, useCallback, useState } from "react";
 import ForceGraph3D from "react-force-graph-3d";
+import SpriteText from "three-spritetext";
+import InfoModal from "./InfoModal";
 
 
 function toGraphData(items) {
@@ -8,13 +10,11 @@ function toGraphData(items) {
         id: item.id,
         name: item.name,
         color: item.colorHex,
-        description : item.description,
+        description: item.description,
+        img: item.img,
     }));
-
-    // Budujemy krawędzie i usuwamy duplikaty (A->B oraz B->A traktujemy jako jedną krawędź)
     const seen = new Set();
     const links = [];
-
     for (const item of items) {
         for (const targetId of item.connections || []) {
             if (!idSet.has(targetId)) continue;
@@ -32,12 +32,12 @@ export default function NetworkGraph3D({ data = [], height = "100%" }) {
     const fgRef = useRef();
     const [hoverNode, setHoverNode] = useState(null);
     const [selectedNode, setSelectedNode] = useState(null);
-
+    const [showModal, setShowModal] = useState(false);
     const graphData = useMemo(() => toGraphData(data), [data]);
 
     const neighborIds = useMemo(() => {
         const active = hoverNode || selectedNode;
-        if (!active) return null;
+        if (!active || !active.id) return null;
         const set = new Set([active.id]);
         graphData.links.forEach((l) => {
             const s = typeof l.source === "object" ? l.source.id : l.source;
@@ -50,6 +50,7 @@ export default function NetworkGraph3D({ data = [], height = "100%" }) {
 
     const handleNodeClick = useCallback((node) => {
         setSelectedNode(node);
+        setShowModal(true);
         if (fgRef.current) {
             const distance = 120;
             const ratio = 1 + distance / Math.hypot(node.x, node.y, node.z || 1);
@@ -61,8 +62,24 @@ export default function NetworkGraph3D({ data = [], height = "100%" }) {
         }
     }, []);
 
+    const nodeThreeObject = useCallback(
+        (node) => {
+            const isDimmed = neighborIds && !neighborIds.has(node.id);
+            const sprite = new SpriteText(node.name);
+            sprite.color = isDimmed ? "gray" : "#ffffff";
+            sprite.textHeight = 4;
+            sprite.backgroundColor = "rgba(0,0,0,0.55)";
+            sprite.padding = 1.5;
+            sprite.borderRadius = 2;
+            sprite.position.set(0, 12, 0);
+            return sprite;
+        },
+        [neighborIds]
+    );
+
     return (
         <div style={{ position: "relative", width: "100vw", height }}>
+            <InfoModal show={showModal} data = {selectedNode} closeModal={() => setShowModal(false)}/>
             <ForceGraph3D
                 ref={fgRef}
                 graphData={graphData}
@@ -71,40 +88,47 @@ export default function NetworkGraph3D({ data = [], height = "100%" }) {
                 nodeColor={(node) =>
                     neighborIds && !neighborIds.has(node.id) ? "gray" : node.color
                 }
-                nodeVal={1}
+                nodeThreeObjectExtend={true}
+                nodeThreeObject={nodeThreeObject}
+                onNodeDragEnd={node => {
+                    node.fx = node.x;
+                    node.fy = node.y;
+                    node.fz = node.z;
+                }}
+                nodeVal={3}
+                nodeOpacity={1}
                 linkWidth={(link) => {
-                    if (!neighborIds) return 1;
+                    const active = hoverNode || selectedNode;
+                    if (!neighborIds || !active || !active.id) return 1;
                     const s = typeof link.source === "object" ? link.source.id : link.source;
                     const t = typeof link.target === "object" ? link.target.id : link.target;
-                    const active = hoverNode || selectedNode;
                     return s === active.id || t === active.id ? 2 : 0.5;
                 }}
+                linkOpacity={0.4}
                 onNodeHover={setHoverNode}
                 onNodeClick={handleNodeClick}
-                onBackgroundClick={() => setSelectedNode(null)}
-            />
-            {(hoverNode || selectedNode) && 
-            <div
-            className="bg-dark p-3 z-1000 rounded border border-dark text-light"
-                style={{
-                    position: "absolute",
-                    top: 16,
-                    left: 16,
+                onBackgroundClick={() => {
+                    setSelectedNode(null);
+                    setShowModal(false);
                 }}
-            >
-                <div style={{ opacity: 0.6, marginBottom: 4 }}>
-                    Wybierz węzeł 
-                </div>
-                {(hoverNode || selectedNode) && (
+            />
+            {hoverNode && (
+                <div
+                    className="bg-dark p-3 z-1000 rounded border border-dark text-light"
+                    style={{
+                        position: "absolute",
+                        top: 16,
+                        left: 16,
+                    }}
+                >
                     <div>
-                        <strong>{(hoverNode || selectedNode).name}</strong>
+                        <strong>{hoverNode.name}</strong>
                         <div style={{ opacity: 0.6 }}>
-                            <p>{(hoverNode || selectedNode).description}</p>
+                            Naciśnij węzeł by dowiedzieć się więcej
                         </div>
                     </div>
-                )}
-            </div>
-            }
+                </div>
+            )}
         </div>
     );
 }
