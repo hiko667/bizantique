@@ -20,7 +20,7 @@ export default function Menu(){
             <Navbar.Collapse className="mx-3 justify-content-end">
                 <Nav.Link className="mx-3" as={Link} to="/map">Mapa</Nav.Link>
                 {/* <Nav.Link className="mx-3" as={Link} to="/data">Baza Wiedzy</Nav.Link> */}
-                <Nav.Link className="mx-3" as={Link} to="/factions">Frakcje</Nav.Link>
+                <Nav.Link className="mx-3" as={Link} to="/races">Rasy Ignis</Nav.Link>
             </Navbar.Collapse>
         </Container>
     </Navbar>

@@ -1,0 +1,30 @@
+[
+    {
+        "id" : "human",
+        "name" : "Ludzie",
+        "img" : "",
+        "description_short" : "Najbardziej wszechstronna i liczna rasa.",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Ludzie zamieszkują większość znanych krain i łatwo adaptują się do nowych warunków."},
+            {"paragraph" : "Kultura", "description" : "Tworzą zróżnicowane królestwa, miasta oraz organizacje handlowe."}
+        ],
+        "racial_bonuses" : [
+            {"name" : "Wszechstronność", "description" : "Dodatkowy punkt do wybranej cechy postaci."}
+        ],
+        "subraces" : ["riheimian", "rubian"]
+    },
+    {
+        "id" : "rubian",
+        "name" : "Rubijczyk",
+        "img" : "",
+        "description_short" : "Mieszkańcy pustynnych krain Rubii.",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Pochodzą z gorącego regionu Rubia, gdzie nauczyli się przetrwać w trudnych warunkach."},
+            {"paragraph" : "Cechy", "description" : "Są wytrzymali na wysokie temperatury i znani z umiejętności handlowych."}
+        ],
+        "racial_bonuses" : [
+            {"name" : "Odporność na gorąco", "description" : "Zmniejsza obrażenia od ognia i upału."}
+        ],
+        "subraces" : []
+    }
+]

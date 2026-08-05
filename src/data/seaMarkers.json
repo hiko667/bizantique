@@ -1,3 +1,50 @@
 [
-    
+    {
+        "id" : "westentry",
+        "name" : "Zachodnie Zejście",
+        "description" : "A",
+        "img" : "",
+        "x" : 574,
+        "y" : 1209
+    },
+    {
+        "id" : "eastentry",
+        "name" : "Wschodnie Zejście",
+        "description" : "B",
+        "img" : "",
+        "x" : 1596,
+        "y" : 1231
+    },
+    {
+        "id" : "shantaira",
+        "name" : "Wyjące Shanta'aira",
+        "description" : "",
+        "img" : "",
+        "x" : 1048,
+        "y" : 670
+    },
+    {
+        "id" : "port",
+        "name" : "Port Rodziny Bardock",
+        "description" : "Port przez który prze",
+        "img" : "",
+        "x" : 1591,
+        "y" : 464
+    },
+    {
+        "id" : "castle",
+        "name" : "Zamek Rodziny Bardock",
+        "description" : "",
+        "img" : "",
+        "x" : 1745,
+        "y" : 516
+    },
+    {
+        "id" : "pipes",
+        "name" : "Rury",
+        "description" : "",
+        "img" : "",
+        "x" : 678,
+        "y" : 866
+    }
 ]

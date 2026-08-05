@@ -161,15 +161,15 @@ export default function MapPage() {
                             pathOptions={{
                                 color: region.color,
                                 weight: 0,
-                                fillOpacity: 0.0,
+                                fillOpacity: 0.1,
                             }}
                             eventHandlers={{
                                 click: () => {
                                     setSelectedLocation(region);
                                     setIsOffCanvasShowing(true);
                                 },
-                                mouseover: (e) => e.target.setStyle({ fillOpacity: 0.25 }),
-                                mouseout: (e) => e.target.setStyle({ fillOpacity: 0.0 }),
+                                mouseover: (e) => e.target.setStyle({ fillOpacity: 0.5 }),
+                                mouseout: (e) => e.target.setStyle({ fillOpacity: 0.1 }),
                             }}
                         />
                     ))}

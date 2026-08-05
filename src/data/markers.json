@@ -9,11 +9,107 @@
         "y" : 900
     },
     {
-        "id" : "id",
-        "name" : "",
+        "id" : "prison",
+        "name" : "Odwrócona Cytadela",
+        "description" : "Miejskie więzienie, główny posterunek Straży Miejskiej. Wieża, w której stacjonują strażnicy znajduje się w głębokiej na dwieście stóp i szerokiej na sto dziurze, na której bokach wybudowano cele",
+        "img" : "https://www.insidehighered.com/sites/default/files/styles/large/public/2025-01/GettyImages-1426949475.jpg",
+        "x" : 1785,
+        "y" : 700
+    },
+    {
+        "id" : "portaskylania",
+        "name" : "Porta Skylania",
+        "description" : "Brama Zachodu",
+        "img" : "",
+        "x" : 297,
+        "y" : 845
+    },
+    {
+        "id" : "portaflumen",
+        "name" : "Porta Flumen",
+        "description" : "Brama Rzeczna",
+        "img" : "",
+        "x" : 752,
+        "y" : 207
+    },
+    {
+        "id" : "portaflumenaminora",
+        "name" : "Porta Flumen Minora",
+        "description" : "Mniejsza brama znajdująca się niedaleko bramy rzecznej. To nią większosć ruchu przedostaje się do bizantique",
+        "img" : "",
+        "x" : 568,
+        "y" : 342
+    },
+    {
+        "id" : "portaortes",
+        "name" : "Porta Ortes",
+        "description" : "Brama Wschodu",
+        "img" : "",
+        "x" : 1623,
+        "y" : 203
+    },
+    {
+        "id" : "maximuscathedral",
+        "name" : "Katedra Św. Maximusa",
+        "description" : "Brama Zachodu",
+        "img" : "",
+        "x" : 1698,
+        "y" : 824
+    },
+    {
+        "id" : "patriciogate",
+        "name" : "Brama Dzielnicy Patrycjuszy",
         "description" : "",
         "img" : "",
-        "x" : 100,
-        "y" : 900
+        "x" : 879,
+        "y" : 698
+    },
+    {
+        "id" : "ritescathedral",
+        "name" : "Katedra Rytów Pierwszych i Ostatnich",
+        "description" : "",
+        "img" : "",
+        "x" : 1094,
+        "y" : 291
+    },
+    {
+        "id" : "cathedralAmelia",
+        "name" : "Katedra Św. Amelii",
+        "description" : "Brama Zachodu",
+        "img" : "",
+        "x" : 522,
+        "y" : 1162
+    },
+    {
+        "id" : "choraxaltemple",
+        "name" : "Świątynia Zatopionego",
+        "description" : "Brama Zachodu",
+        "img" : "",
+        "x" : 746,
+        "y" : 1200
+    },
+    {
+        "id" : "bardock",
+        "name" : "Sklep Muzyczny Bardock",
+        "description" : "",
+        "img" : "",
+        "x" : 692,
+        "y" : 684
+    },
+    {
+        "id" : "lux",
+        "name" : "Lux Oculus",
+        "description" : "Wybrzeża Miasta Przodków strzeże Oko Lux, znane pod Veterijską nazwą Lux Oculus, wysoka na sto metrów latarnia. Jej ściany, w przeciwieństwie do reszty murów miejskich są regularnie bielone, tak by kontrastowała na tle piaskowcowego miasta, prowadząc statki do portu. Na szczycie wieży znajduje się seria soczewek skupiających światło słoneczne, zdolna nawet w nocy spopielić statek z odległości połowy mili",
+        "img" : "",
+        "x" : 592,
+        "y" : 1258
+    },
+    {
+        "id" : "cementary",
+        "name" : "Cmentarz Miejski",
+        "description" : "",
+        "img" : "",
+        "x" : 38,
+        "y" : 437
     }
 ]
