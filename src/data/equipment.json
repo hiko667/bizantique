@@ -1,0 +1,21 @@
+{
+    "equipment" : [
+        {"name" : "A", "price" : "A", "weight" : "A"},
+        {"name" : "", "price" : "", "weight" : ""}
+    ],
+    "guns" : [
+        {"Nazwa" : "Pistolet Samopowtarzalny","Cechy" : "Zacięcie(3), Precyzja(17), Magazynek(12), Zasięg(18/36)", "Obrażenia" : "k12 kłute", "Waga" : "1.1 kg", "Koszt" : "50 sz"},
+        {"Nazwa" : "Strzelba Ręczna","Cechy" : "Zacięcie(4), Precyzja(17), Magazynek(5), Strzelba ", "Obrażenia" : "k10 cięte", "Waga" : "2 kg", "Koszt" : "70 sz"},
+        {"Nazwa" : "Karabin Samopowtarzalny","Cechy" : "Zacięcie(3), Precyzja(17), Magazynek(8), Zasięg(36/72)", "Obrażenia" : "3k4 kłute", "Waga" : "3.75 kg", "Koszt" : "100 sz"},
+        {"Nazwa" : "Karabin Półautomatyczny","Cechy" : "Zacięcie(5), Precyzja(17), Magazynek(24), Ogień Maszynowy, Zasięg(36/72)", "Obrażenia" : "3k4 kłute", "Waga" : "4 kg", "Koszt" : "250 sz"},
+        {"Nazwa" : "Ciężki Karabin Maszynowy","Cechy" : "Zacięcie(7), Precyzja(20), Magazynek(120), Zasięg(26/108)", "Obrażenia" : "3k8 kłute + k4 od ognia", "Waga" : "15 kg", "Koszt" : "1000 sz"},
+        {"Nazwa" : "Strzelba","Cechy" : "Zacięcie(4), Precyzja(17), Magazynek(1), Strzelba", "Obrażenia" : "2k10 cięte", "Waga" : "3 kg", "Koszt" : "100 sz"}
+    ],
+    "weapons" : [
+        {"name" : "","atributes" : "", "damage" : "", "price" : "", "weight" : ""}
+    ],
+    "armour" : [
+        {"name" : "","ac" : "", "str" : "", "sneak" : false, "price" : "", "weight" : ""}
+
+    ]
+}

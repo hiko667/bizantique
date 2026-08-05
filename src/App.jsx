@@ -6,6 +6,7 @@ import MapPage from './pages/MapPage';
 import DataBasePage from './pages/DataBasePage';
 import FactionsPage from './pages/FactionsPage';
 import RacesPage from './pages/RacesPage';
+import EquipmentPage from './pages/EquipmentPages';
 
 export default function App() {
 
@@ -19,6 +20,7 @@ export default function App() {
                     {/* <Route path = "/factions/" element = {<FactionsPage/>}/> */}
                     {/* <Route path = "/data" element = {<DataBasePage/>}/> */}
                     <Route path = "/races/" element = {<RacesPage/>}/>
+                    <Route path = "/equipment/" element = {<EquipmentPage/>}/>
                 </Routes>
         </HashRouter>
     </div>
