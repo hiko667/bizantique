@@ -6,11 +6,12 @@ export default function Menu(){
     
     return(
     <Navbar expand="lg" className="bg-dark z-1000">
+        <Navbar.Toggle color="white"/>
         <Container>
             <Navbar.Brand className="text-light" as={Link} to="/map">
             <img
                         alt=""
-                        src="/eye.png"
+                        src="eye.png"
                         width="30"
                         height="30"
                         className="d-inline-block mx-3 align-top"

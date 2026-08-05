@@ -57,6 +57,13 @@ export default function RacesPage() {
                                     <p>{d.description}</p>
                                 </Fragment>
                             ))}
+                            <h2 className="py-3">{currentRace.name} - Cechy rasowe</h2>
+                            {currentRace.racial_bonuses.map((d, index) => (
+                                <Fragment key={index}>
+                                    <h4>{d.name}</h4>
+                                    <p>{d.description}</p>
+                                </Fragment>
+                            ))}
                         </div>
                         <h2>{currentRace.name} - podrasy</h2>
                     </div>

@@ -54,10 +54,10 @@ export default function MapPage() {
 
     const activeMapImage = 
         layer === "city" 
-            ? "/Bizantique.jpg" 
+            ? "Bizantique.jpg" 
             : layer === "sea" 
-            ? "/BizantiqueSea.jpg" 
-            : "/Ignis.webp";
+            ? "BizantiqueSea.jpg" 
+            : "Ignis.webp";
 
     const activeMarkers = 
         layer === "city" 

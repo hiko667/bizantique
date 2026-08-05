@@ -14,15 +14,15 @@ export default function SubraceModal({show, subrace, onHide}){
                     <div className="w-20 h-100 m-3">
                         <Image fluid thumbnail src={subrace?.img !== "" ? subrace?.img : "eye.png"}/>
                     </div>
-                    <div className="w-100 h-100 m-3">
-                        {subrace.description.map((e, index) => (
+                    <div className="w-100 h-100 m-3 overflow-auto">
+                        {subrace?.description.map((e, index) => (
                             <Fragment key={index}>
                                 <h3>{e.paragraph}</h3>
                                 <p>{e.description}</p>
                             </Fragment>
                         ))}
                         <h2 className="pt-5 pb-3">{subrace?.name} - Cechy Rasowe</h2>
-                        {subrace.racial_bonuses.map((e, index) => (
+                        {subrace?.racial_bonuses.map((e, index) => (
                             <Fragment key={index}>
                                 <h3>{e.name}</h3>
                                 <p>{e.description}</p>

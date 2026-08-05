@@ -3,27 +3,98 @@
         "id" : "human",
         "name" : "Ludzie",
         "img" : "",
-        "description_short" : "Najbardziej wszechstronna i liczna rasa.",
+        "description_short" : "Ukochane dzieci Pana Aniołów",
         "description" : [
-            {"paragraph" : "Pochodzenie", "description" : "Ludzie zamieszkują większość znanych krain i łatwo adaptują się do nowych warunków."},
-            {"paragraph" : "Kultura", "description" : "Tworzą zróżnicowane królestwa, miasta oraz organizacje handlowe."}
+            {"paragraph" : "Pochodzenie", "description" : "Ludzie są najliczniejszą rasą kontynentu. Wywodzą się od trzech zasadniczych grup etnicznych: Pierwszych Ludzi, Al’Mahdi i Hizuryjczyków. Większość osób ma w sobie po trochu z wszystkiego, choć w niektórych narodach wpływ konkretnej linii genetycznej jest widoczny bardziej niż w innych. "},
+            {"paragraph" : "Veterijskie imiona męskie", "description" : "Aurelian, Achilles, Belian, Bellator, Brutus, Cassius, Cornelius, Cato, Draco, Dominus, Faustus, Flavius, Gaius, Horatius, Julius, Justus, Lucius, Longinus, Maximus, Marcellus, Numerius, Nero, Octavian, Pius, Regulus, Tiberius, Titus, Virgilius, Zeno"},
+            {"paragraph" : "Veterijskie imiona żeńskie", "description" : "Aelia, Augusta, Bellona, Cassia, Cornelia, Claudia, Domitia, Fabia, Flavia, Faustina, Gemina, Hortensia, Helvia, Iulia, Junia, Liva, Lucilla, Maxima, Martina, Madea, Nerva, Octavia, Pompeia, Rhodia, Sabina, Tulia, Valeria, Zelina"}
         ],
         "racial_bonuses" : [
-            {"name" : "Wszechstronność", "description" : "Dodatkowy punkt do wybranej cechy postaci."}
+            {"name" : "Zwiększenie cechy", "description" : "Zwiększ wartość jednej cechy o 2 lub dwóch cech o 1"},
+            {"name" : "Biegłość", "description" : "Zyskujesz biegłość w jednej umiejętności, zestawie narzędzi lub dwóch rodzajach broni"},
+            {"name" : "Atut", "description" : "Zyskujesz jeden Atut"},
+            {"name" : "Języki", "description" : "Znasz języki Veteris i jeden inny wybany język"},
+            {"name" : "Grupy etniczne", "description" : "Każda z podras człowieka (poza Uduchowionym i Auranem) jest grupą etniczną. Zawiera ona sugerowane Cechy, Biegłości i Atuty do cech ogólnej rasy Człowiek. Bonusy rasy i podrasy nie kumulują się. Auranie i Uduchowieni nie zyskują bonusów z rasy a jedynie z podrasy"}
         ],
-        "subraces" : ["riheimian", "rubian"]
+        "subraces" : ["riheim", "rubia"]
     },
     {
-        "id" : "rubian",
-        "name" : "Rubijczyk",
-        "img" : "",
-        "description_short" : "Mieszkańcy pustynnych krain Rubii.",
+        "id" : "riheim",
+        "name" : "Riheimczycy",
+        "img" : "https://i0.wp.com/lolailo.co.uk/wp-content/uploads/2018/08/NPC-Barovian-Gypsies.jpg",
+        "description_short" : "Konie, wino i śpiew",
         "description" : [
-            {"paragraph" : "Pochodzenie", "description" : "Pochodzą z gorącego regionu Rubia, gdzie nauczyli się przetrwać w trudnych warunkach."},
-            {"paragraph" : "Cechy", "description" : "Są wytrzymali na wysokie temperatury i znani z umiejętności handlowych."}
+            {"paragraph" : "Życie w Riheimie", "description" : "Wywodzą się z Księstwa Riheimu, największego państwa Koalicji. Są ludem wielkich równin, stepów i winnic.Mówi się, że w Riheimie wszystko jest tak jakby bardziej kolorowe, co z resztą znajduje swoje odbicie w barwnych, niemal tęczowych powłóczystych szatach jakie noszą jego mieszkańcy. Społeczeństwo Księstwa rządzone jest przez Baronów. Każdy aspekt życia ma swojego Barona - wsie, kanalizacja, półświatek, wszędzie mniejsi i więksi Baronowie."},
+            {"paragraph" : "Bizantique", "description" : "Warto zauważyć, że Bizantique znajduje się na terenie Riheimu, a jednak jego mieszkańcy należą do wszystkich grup etnicznych świata i mają własną, niezależną kulturę. Tworząc rodzimego mieszkańca Bizantique nie sugeruj się niczym poniżej, lecz skorzystaj z Veterijskich imion"},
+            {"paragraph" : "Estetyka Riheimu", "description" : "Bohema, Blaknące kolory, oliwkowa skóra, ciemne oczy, konie, śpiew przy ognisku, zapach oceanu i ludzkiego ciała"},
+            {"paragraph" : "Riheimskie imiona męskie", "description" : "Alestan, Barzhan, Cirelian, Djamir, Ezrikos, Jaduron, Kalveth, Mirejan, Solendro, Tzaryon"},
+            {"paragraph" : "Riheimskie imiona żeńskie", "description" : "Anevra, Basila, Chirelda, Dazmira, Elanissa, Ismara, Kalentha, Lorivya, Saravelle, Zhamira"}
         ],
         "racial_bonuses" : [
-            {"name" : "Odporność na gorąco", "description" : "Zmniejsza obrażenia od ognia i upału."}
+            {"name" : "Zwiększenie cechy", "description" : "Zwiększ wartość Zręczności lub Charyzmy o 2"},
+            {"name" : "Biegłość", "description" : ". Zyskujesz biegłość w umiejętności Opieka nad Zwierzętami, w Narzędziach Winiarza lub jednym zestawie do gry"},
+            {"name" : "Atut", "description" : "Zyskujesz atut Szczęściarz lub Czujny"},
+            {"name" : "Języki", "description" : "Znasz języki Veteris i Riheimski"}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "rubia",
+        "name" : "Rubijczycy",
+        "img" : "",
+        "description_short" : "Siła wyzwala",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Rubijczycy są militarnym społeczeństwem wyznającym odłam Kościoła uznający ich nieśmiertelną Cesarzową (nazywaną Spaloną) za zapowiedzianego Mesjasza. Wszyscy pełnoprawni obywatele przechodzą szkolenie wojskowe między 17 a 19 rokiem życia, gdzie ich ego jest łamane i odbudowywane na nowo. Rubia jest państwem ksenofobicznym i nieufnym, a sami mieszkańcy rzadko przekraczają Wielki Mur"},
+            {"paragraph" : "Estetyka", "description" : "Biel i złoto, symbolika orła i błyskawic, metalowe oficerskie maski, twarde rysy twarzy, blizny, paranoja, neutralne zapachy, utylitaryzm "},
+            {"paragraph" : "Rubijskie imiona męskie", "description" : "Aldemar, Berengar, Claymore, Eadric, Falkar, Godric, Halvian, Leontar, Sigmar, Vortan"},
+            {"paragraph" : "Rubijskie imiona żeńskie", "description" : "Adelira, Brienna, Caldra, Elswyn, Fiora, Giseldra, Isolde, Lenira, Tharissa, Vionne"}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : "Wartość twojej Siły lub Kondycji wzrasta o 2"},
+            {"name" : "Biegłość", "description" : "Zyskujesz biegłość w używaniu dowolnej broni białej i karabinu samopowtarzalnego lub w umiejętności zastraszenie"},
+            {"name" : "Atut", "description" : "Zyskujesz jeden z następujących Atutów: Brutalny Napastnik, Mag Bitewny, Zabójca Magów"},
+            {"name" : "Języki", "description" : "Znasz języki Veteris i Rubijski"}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "skyland",
+        "name" : "Skylandczycy",
+        "img" : "",
+        "description_short" : "",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Skyland jest górzystym państwem małych wsi i sięgających ku niebu zamków. Jego lud jest bardzo przywiązany do tradycyjnych metod życia i z wielkim trudem przyjmuje zmiany. Sami skylandczycy są uczciwi i ciężko pracujący. W ich społeczeństwie nadal funkcjonuje instytucja rycerstwa, wraz z heraldyką i tytułami przysługującymi rycerzom "},
+            {"paragraph" : "Estetyka", "description" : "Górskie przełęcze, lśniące zbroje, barwy szarości, zapach świeżego powietrza, śpiew ptaków"},
+            {"paragraph" : "Skylandzkie imiona męskie", "description" : "Aurel, Bastan, Cedric, Dorian, Emerik, Gauvain, Halrik, Lorian, Tharic, Ulfryk"},
+            {"paragraph" : "Skylandzkie imiona żeńskie", "description" : "Adelwen, Brynna, Celene, Doretta, Elwina, Gislanne, Lorée, Mirelda, Selriche, Ysolde"}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : ""},
+            {"name" : "Biegłość", "description" : ""},
+            {"name" : "Atut", "description" : ""},
+            {"name" : "Języki", "description" : "Znasz języki Veteris i "}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "",
+        "name" : "",
+        "img" : "",
+        "description_short" : "",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : ""},
+            {"paragraph" : "Estetyka", "description" : ""},
+            {"paragraph" : " imiona męskie", "description" : ""},
+            {"paragraph" : " imiona żeńskie", "description" : ""}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : ""},
+            {"name" : "Biegłość", "description" : ""},
+            {"name" : "Atut", "description" : ""},
+            {"name" : "Języki", "description" : "Znasz języki Veteris i "}
         ],
         "subraces" : []
     }
