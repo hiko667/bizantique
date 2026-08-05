@@ -34,7 +34,8 @@ export default function RacesPage() {
     }
 
     return (
-        <div className="overflow-auto p-3">
+        <div className="overflow-auto p-3"
+        style={{overflowX : "hidden"}}>
             <SubraceModal show={showSubraceModal} 
             onHide={() => setShowSubraceModal(false)}
             subrace={currentSubrace}/>
@@ -57,7 +58,7 @@ export default function RacesPage() {
                                     <p>{d.description}</p>
                                 </Fragment>
                             ))}
-                            <h2 className="py-3">{currentRace.name} - Cechy rasowe</h2>
+                            {currentRace.racial_bonuses.length > 0  && <h2 className="py-3">{currentRace.name} - Cechy rasowe</h2>}
                             {currentRace.racial_bonuses.map((d, index) => (
                                 <Fragment key={index}>
                                     <h4>{d.name}</h4>

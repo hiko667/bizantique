@@ -2,7 +2,7 @@
     {
         "id" : "human",
         "name" : "Ludzie",
-        "img" : "",
+        "img" : "humans.png",
         "description_short" : "Ukochane dzieci Pana Aniołów",
         "description" : [
             {"paragraph" : "Pochodzenie", "description" : "Ludzie są najliczniejszą rasą kontynentu. Wywodzą się od trzech zasadniczych grup etnicznych: Pierwszych Ludzi, Al’Mahdi i Hizuryjczyków. Większość osób ma w sobie po trochu z wszystkiego, choć w niektórych narodach wpływ konkretnej linii genetycznej jest widoczny bardziej niż w innych. "},
@@ -16,7 +16,7 @@
             {"name" : "Języki", "description" : "Znasz języki Veteris i jeden inny wybany język"},
             {"name" : "Grupy etniczne", "description" : "Każda z podras człowieka (poza Uduchowionym i Auranem) jest grupą etniczną. Zawiera ona sugerowane Cechy, Biegłości i Atuty do cech ogólnej rasy Człowiek. Bonusy rasy i podrasy nie kumulują się. Auranie i Uduchowieni nie zyskują bonusów z rasy a jedynie z podrasy"}
         ],
-        "subraces" : ["riheim", "rubia"]
+        "subraces" : ["riheim", "rubia", "skyland", "slavia", "elda", "grayislands", "sunislands", "thania", "norne", "sal", "goths", "auran", "gaistborn"]
     },
     {
         "id" : "riheim",
@@ -41,7 +41,7 @@
     {
         "id" : "rubia",
         "name" : "Rubijczycy",
-        "img" : "",
+        "img" : "https://i.pinimg.com/1200x/9d/c4/33/9dc433c6ffc501f9af345f9369cd10dd.jpg",
         "description_short" : "Siła wyzwala",
         "description" : [
             {"paragraph" : "Pochodzenie", "description" : "Rubijczycy są militarnym społeczeństwem wyznającym odłam Kościoła uznający ich nieśmiertelną Cesarzową (nazywaną Spaloną) za zapowiedzianego Mesjasza. Wszyscy pełnoprawni obywatele przechodzą szkolenie wojskowe między 17 a 19 rokiem życia, gdzie ich ego jest łamane i odbudowywane na nowo. Rubia jest państwem ksenofobicznym i nieufnym, a sami mieszkańcy rzadko przekraczają Wielki Mur"},
@@ -61,8 +61,8 @@
     {
         "id" : "skyland",
         "name" : "Skylandczycy",
-        "img" : "",
-        "description_short" : "",
+        "img" : "https://i.pinimg.com/1200x/8b/39/fe/8b39fe89cce47649c3422935b501adf8.jpg",
+        "description_short" : "Za Księcia, za Ojczyznę!",
         "description" : [
             {"paragraph" : "Pochodzenie", "description" : "Skyland jest górzystym państwem małych wsi i sięgających ku niebu zamków. Jego lud jest bardzo przywiązany do tradycyjnych metod życia i z wielkim trudem przyjmuje zmiany. Sami skylandczycy są uczciwi i ciężko pracujący. W ich społeczeństwie nadal funkcjonuje instytucja rycerstwa, wraz z heraldyką i tytułami przysługującymi rycerzom "},
             {"paragraph" : "Estetyka", "description" : "Górskie przełęcze, lśniące zbroje, barwy szarości, zapach świeżego powietrza, śpiew ptaków"},
@@ -71,10 +71,246 @@
             
         ],
         "racial_bonuses" : [
-            {"name" : "Zwiększenie cechy", "description" : ""},
-            {"name" : "Biegłość", "description" : ""},
-            {"name" : "Atut", "description" : ""},
+            {"name" : "Zwiększenie cechy", "description" : "Wartość twojej Siły lub Zręczności wzrasta o 2 "},
+            {"name" : "Biegłość", "description" : "Zyskujesz biegłość w umiejętności Historia, narzędziach kowalskich lub ciężkim pancerzu (jeżeli masz biegłość w lekkim lub średnim)"},
+            {"name" : "Atut", "description" : "Zyskujesz atut Kawalerzysta lub Przywódca"},
+            {"name" : "Języki", "description" : "Znasz języki Veteris i Rubijski"}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "slavia",
+        "name" : "Slvijczycy",
+        "img" : "https://upload.wikimedia.org/wikipedia/commons/d/dd/Blagoslovenie_ratnika_by_Andrey_Shishkin.jpg",
+        "description_short" : "",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Pochodzący z ciemnych lasów centralnego Ignis Slavijczycy są ludem niezwykle nieufnym -  nieufnym wobec obcych to jest. Mówi się, że mają tendencję do złomiarstwa, zbierając technologię, broń i narzędzia innych kultur i dopasowując je do własnych potrzeb. Ponadto, Slavijczycy są bitni i szybcy do kłótni."},
+            {"paragraph" : "Wykidajła", "description" : "Slavijskie lasy zamieszkują czarownice, których tamtejsi ludzie równie się boją, jak i szanują. Krążą legendy o Wykidajłach, stworzonych przez wiedźmy mutantach zdolnych do obrony wiosek i kradzieży dzieci. "},
+            {"paragraph" : "Estetyka", "description" : "Tajemnice, rzucane przez ogień cienie, zardzewiałe narzędzia, ludowe pieśni, więzy krwi, konflikty między rodzinami trwające od pokoleń"},
+            {"paragraph" : "Slavijskie imiona męskie", "description" : "Borzysław, Dzisław, Jarosz, Mściwoj, Krak, Radzisz, Sławomir, Ściesław, Wszemir, Żelisław"},
+            {"paragraph" : "Slavijskie imiona żeńskie", "description" : "Alszka, Bolesława, Dzisława, Jaroszyna, Ksiżana, Mścisława, Ożara, Radzisława, Ściesława, Żelmira"}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : "Wartość twojej Mądrości lub Kondycji wzrasta o 2"},
+            {"name" : "Biegłość", "description" : "Zyskujesz biegłość w umiejętności Przyroda, narzędziach cieśli lub narzędziach tkacza"},
+            {"name" : "Atut", "description" : "Zyskujesz atut Ruchliwy lub Twardziel "},
+            {"name" : "Języki", "description" : "Znasz języki Veteris i Slavijski"}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "elda",
+        "name" : "Eldańczycy",
+        "img" : "elda.webp",
+        "description_short" : "Wolność ponad życie",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Elda jest zbiorem zjednoczonych klanów gór północnego Ignis. Słynie z produkcji tytoniu i ze swoich sprawnych strzelców. Znalezienie eldańskiej osady graniczy z cudem - jej mieszkańcy są niezwykle dobrzy w ukrywaniu się. Eldańczycy są raczej spokojnym, pozbawionym zmartwień ludem o wiele bardziej ceniącym relaks niż wysiłek. Często zamieszkują jaskinie, przerobione na niezwykle komfortowe i chłodne domostwa. "},
+            {"paragraph" : "Estetyka", "description" : "Nieprzemierzone lasy, symbolika jelenia, łucznicy, spalona słońcem skóra, czarne loki, kamuflujące ubrania"},
+            {"paragraph" : "Eldańskie imiona męskie", "description" : "Alarico, Carmelo, Dario, Esteban, Feliciano, Isandro, Leandro, Mateo, Salvador, Tomaso"},
+            {"paragraph" : "Eldańskie imiona żeńskie", "description" : "Almendra, Catalina, Carmen, Elvira, Felisa, Isabela, Liora, Marisol, Paloma, Rosalba, Serafina"}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : "Wartość twojej Zręczności lub Mądrości wzrasta o 2"},
+            {"name" : "Biegłość", "description" : "Zyskujesz biegłość w Łuku długim i krótkim, umiejętności Przyroda lub umiejętności Skradanie Się"},
+            {"name" : "Atut", "description" : "Zyskujesz atut Wartownik lub Bystry Umysł "},
+            {"name" : "Języki", "description" : "Znasz języki Veteris i Eldański"}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "thania",
+        "name" : "Thanijczycy",
+        "img" : "thania.webp",
+        "description_short" : "",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Thania jest Republiką wyrosłą z Thalos, państwa założonego na wyspach Thanijskich przez zbiegłych niewolników w odległej Erze Dominium. Państwo charakteryzuje się niezwykłym rozwarstwieniem społecznym, między bogatą burżuazją a biednymi pracownikami fabryk. "},
+            {"paragraph" : "Polityka Thanii", "description" : "Parlament Thanijski podzielony jest między dwie frakcje: Błękitną Krew, przedstawicieli bogatych rodów i Czerwonych Magów, socjalistów dążących do równości poprzez progres. Północ, kontrolowana przez Krew jest regionem wysokich szczytów i niskich dolin - zarówno społecznie, technologicznie jak i geograficznie. Czerwone południe jest mniej ekstrawaganckie, ale za to o wiele bardziej humanitarne. Tanijczycy są pionierami technologii, odpowiadając za całokształt rewolucji przemysłowej Ignis."},
+            {"paragraph" : "Estetyka", "description" : "Maszyny, ubrania robocze, pasy narzędziowe, ubrani z przepychem arystokraci, wełniane płaszcze, smar, spalone lasy"},
+            {"paragraph" : "Thanijskie imiona męskie", "description" : "Alphonse, Bastien, Émeric, Florent, Gérald, Jean, Lucien, Marceau, Pascal, Renaud"},
+            {"paragraph" : "Thanijskie imiona żeńskie", "description" : "Arielle, Camille, Éloïse, Fabienne, Giselle, Léontine, Mireille, Noémie, Renat, Sylehua"}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : "Wartość twojej Inteligencji lub Zręczności wzrasta o 2"},
+            {"name" : "Biegłość", "description" : "Zyskujesz biegłość w testach Inteligencji związanych z maszynami, narzędziach mechanika lub umiejętności Akrobatyka"},
+            {"name" : "Atut", "description" : "Zyskujesz atut Aktor lub Wtajemniczony"},
+            {"name" : "Języki", "description" : "Znasz języki Veteris i Thanijski"}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "sal",
+        "name" : "Saalici",
+        "img" : "https://i.pinimg.com/736x/8d/a4/65/8da46548f6e08b2f9044dd292f37ff1b.jpg",
+        "description_short" : "",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Krainy Sal definiuje pustynia, która oddziela je od reszty kontynentu. Saalici zamieszkują miasta Krain Sal, położone wzdłuż Rzeki Końca Świata przyczółki cywilizacji. Ich najbardziej charakterystyczną cechą jest ciemna skóra, przypominająca barwą ziemię, oraz niezwykły spryt wypracowany życiem w okrutnych warunkach. Krainy Saal są jedynym miejscem naturalnego występowania soli, a większość ich populacji stanowią niewolnicy pracujący w kopalniach i przy suszeniu morskiej wody. "},
+            {"paragraph" : "Religie krain Sal", "description" : "Warto zaznaczyć różnice religijne między poszczególnymi regionami Krain Sal. Północne miasta, Nikea, Sal Minorum i Sal Servi są oddanymi wyznawcami Pana Aniołów, z kolei Sal Harbour i miasta Baalitów są w oczywisty sposób sługami Baala. "},
+            {"paragraph" : "Estetyka", "description" : "Pustynia, długie białe szaty, korzenne perfumy, bursztynowe oczy, zatłoczone ulice"},
+            {"paragraph" : "Salickie imiona męskie", "description" : "Azim, Bahir, Cassamir, Ghassan, Hamid, Jalil, Karim, Malik, Nadir, Zafir"},
+            {"paragraph" : "Salickie imiona żeńskie", "description" : "Aaliyah, Basima, Dalia, Farah, Laila, Nadia, Samira, Yasmin, Zahra, Zaina"}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : "Wartość twojej Kondycji lub Inteligencji wzrasta o 2"},
+            {"name" : "Biegłość", "description" : "Zyskujesz biegłość w umiejętności Sztuka Przetrwania, narzędziach górnika lub umiejętności Historia"},
+            {"name" : "Atut", "description" : "Zyskujesz atut Uzdrowiciel lub Lekko Opancerzony"},
+            {"name" : "Języki", "description" : "Znasz języki Veteris i Salijski"}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "goths",
+        "name" : "Goci",
+        "img" : "https://pbs.twimg.com/media/El2aNcxXYAE6JQD.jpg",
+        "description_short" : "Mijczący zwiastun",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Wampirze miasta są niezbyt dobrze zbadanym fenomenem. Pojawiają się i znikają w różnych miejscach o różnej porze roku i dnia, nie podążając za żadnym schematem. Zamieszkują je goci, grupa etniczna o śnieżnobiałej skórze i czarnych jak noc włosach. Nigdy nie krzyczą, większośc ich komunikacji odbywa się szeptem. Mówi się, że ich nienaturalny wygląd jest wynikiem wampirzej krwii płynącej w ich czarnych żyłach. Nie jest to jednak potwierdzone, a sami goci nie lubią rozmawiać o Miastach z których pochodzą. "},
+            {"paragraph" : "Estetyka", "description" : "Niemożliwe jest zdefiniowane pojedynczej estetyki. Każde miasto zależne jest od swoich wampirzych władców. "},
+            {"paragraph" : "Imiona gotyckie", "description" : "Goci stosują neutralne płciowo imiona, podkreślające ich androgeniczną kulturę"}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : "Wartość twojej Kondycji lub Charyzmy wzrasta o 2"},
+            {"name" : "Biegłość", "description" : "Zyskujesz biegłość w umiejętności Wiedza Tajemna"},
+            {"name" : "Atut", "description" : "Brak sugestii"},
             {"name" : "Języki", "description" : "Znasz języki Veteris i "}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "grayislands",
+        "name" : "Ludzie z Wysp Szarych",
+        "img" : "https://i.pinimg.com/736x/31/fe/3e/31fe3e355bab45fa0dd1cc5ccf72d781.jpg",
+        "description_short" : "Wszystko za odpowiednią cenę",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Ziemia Wysp Żelaznych jest bezpłodna. Od wieków jej mieszkańcy zdobywali żywność polując, łowiąc i przede wszystkim - rabując. Wraz z wybuchem Wojen Wiary to jednak się zmieniło. Szary Piasek, ezoteryczna, sypka substancja pokrywająca plaże Wysp okazała się być magnesem na uwolnionych Umęczonych Sylvan. Dzięki temu Wyspiarze są na samym czele postępu technologicznego Ignis, rywalizując jedynie z Thanią. Broń z Wysp Szarych zalewa całe Ignis, a Wyspiarze sprzedają ją zarówno Koalicji, Rubii, Kalifatowi jak i Legionom Heretyckim. Ludzie z Wysp są chciwymi cynikami o blond włosach i ciemnej skórze. Czczą Zatopionego, martwego, podmorskiego patrona bogactwa"},
+            {"paragraph" : "Estetyka", "description" : "Nowoczesna technologia połączona z krwawymi ofiarami, okrągłe tarcze, klany, długie stalowe drakkary, blond włosy "},
+            {"paragraph" : "Wyspiarskie imiona", "description" : "Wyspiarze używają Rubijskich imion"}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : "Wartość twojej Kondycji  lub Mądrości wzrasta o 2"},
+            {"name" : "Biegłość", "description" : "Zyskujesz biegłość w pojazdach wodnych, umiejętności Perswazja lub Karabinie Samopowtarzalnym"},
+            {"name" : "Atut", "description" : "Zyskujesz atut Brutalny Napastnik lub Nie Do Zdarcia"},
+            {"name" : "Języki", "description" : "Znasz języki Veteris i Rubijski"}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "auran",
+        "name" : "Auranie",
+        "img" : "https://i.pinimg.com/1200x/53/3f/6a/533f6aa9cafb6734850e6cb08169d8c3.jpg",
+        "description_short" : "",
+        "description" : [
+            {"paragraph" : "Historia", "description" : "W czasach Dominium, przed Upadkiem i przed Wojnami Wiary istniał ród Cesarzy, władców Imperium i całego Ignis. Największym z nich, Zaraz po Belianie I był zdecydowanie Cyryl Pierwszy. Połączył on ludy Pierwszych Ludzi i Al Mahdi, spajając ludzkość w jeden, pełny twór. W nagrodę został pobłogosławiony przez Lux, Podtrzymującą patronkę Światła Słonecznego, która uczyniła jego potomków więcej niż tylko ludźmi. Wnuki Cyryla urodziły się ze złotymi oczami, które od tego momentu stały się symbolem arystokratycznego pochodzenia i wysokiego statusu. Auranie, bo o nich mowa, są dumnym odłamem ludzkości żyjącym w większych miastach. Ich złote oczy napełniają innych strachem, ale i oddaniem, czyniąc z nich idealnych przywódców."},
+            {"paragraph" : "Współcześnie", "description" : "Wraz z czasem wyjątkowość i status Auran zaczęły zanikać. Dla arystokracji nadal są oni cennym zasobem – każda rodzina chcąca poszczycić się Dominijskim pochodzeniem pragnie mieć Aurańskie dzieci. Prowadzi to do traktowania małżonków jak formę mebli, bądź zasobu, który można wykorzystać jak bydło rozpłodowe. Oczy Auran są niezwykle cennymi komponentami magicznymi, czyniąc z nich obiekt pożądania łowców magicznych przedmiotów."}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : "Wartość twojej Charyzmy wzrasta o 2, a Inteligencji o 1"},
+            {"name" : "Charakter", "description" : "Auranie, jako rasa arystokratów mają tendencję do podążania za literą prawa. Mówi się jednak, że aurański okres młodzieńczego buntu jest bardziej intensywny niż w przypadku innych ras"},
+            {"name" : "Wiek", "description" : " Auranie dożywają 150 lat, a dorosłość osiągają w wieku 15 lat"},
+            {"name" : "Języki", "description" : "Znasz języki Veteris i dwa inne wybrane"},
+            {"name" : "Rozmiar", "description" : "Auranie fizycznie nie różnią się od ludzi. Twój rozmiar jest średni"},
+            {"name" : "Szybkość", "description" : "Twoja bazowa szybkość wynosi 9 metrów"},
+            {"name" : "Słowo Rozkazu", "description" : "Znasz zaklęcie Rozkaz. Jesteś w stanie je rzucić ilość razy równą twojej premii z biegłości. Gdy wykorzystasz wszystkie użycia tej umiejętności, nie możesz go rzucić aż do ukończenia długiego odpoczynku. Twoją cechą bazową dla obliczania ST rzutów przeciw zaklęciu jest Charyzma. Jeżeli posiadasz możliwość rzucania czarów, Rozkaz masz zawsze przygotowany i nie wlicza się on do maksymalnej liczby przygotowanych czarów."},
+            {"name" : "Uczony", "description" : " Zyskujesz biegłość w jednej z umiejętności: Historia, Religia, Wiedza Tajemna"}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "gaistborn",
+        "name" : "Uduchowieni",
+        "img" : "",
+        "description_short" : "Wyjątkowo obdarowani",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Uduchowieni są specjalnym rodzajem ludzi, urodzonym z szczególnie silnym duchem. Od urodzenia są więksi, silniejsi i szybsi niż zwykli ludzie. Organizacją skupiającą Uduchowionych jest Zakon Świętego Maximusa, sformowany z czterech na pięć Zakonów Rycerskich. Silny duch może zmotywować człowieka do czynów niezwykle bohaterskich, jak i do niezwykle podłych, niegodnych. Upadli uduchowieni istnieją, a werbuje ich Zakon Synów Cyryla, pozostałość po Rycerskim Zakonie Lekarzy Plagi."},
+            {"paragraph" : "Zakony Rycerskie", "description" : "Zakony Rycerskie były instytucjami Ery Apostazji, gdy każdy z nich odpowiadał jednemu z Starych Bogów. Wierzono wówczas, że gaist jest ostatnim oddechem Starych Bóstw i pierwszym  darem Pana Aniołów. Było tak do momentu, gdy Lekarze Plagi upadli. Mistrz ich zakonu wynalazł Eter, substancję rzekomo chroniącą przed wpływami herezji. Jej podstawowym działaniem było uplastycznienie umysłu. Biorący wierzył we wszystko, co myślał i żaden zewnętrzny argument nie był w stanie zmienić jego zdania. Eter wydawał się cudowną substancją, aż do momentu, gdy Lekarze zaczęli doświadczać epizodów psychozy. Sam Mistrz Zakonu oznajmił, że jest sekretnym dzieckiem Beliana II, Belianem III i, że na podstawie pochodzenia z linii i rodu Cyryla władza nad Ignis mu się należy. Przemianował zakon na Synów Cyryla w roku 530 wypowiedział wierność Kościołowi. W odpowiedzi, Najwyższy Pleban zadeklarował potrzebę sformowania nowej jednostki do walki z tym nowym zagrożeniem. Tak oto, cztery Zakony Rycerskie: Wygasłe Słońce, Żelazne Pióro, Złamany Miecz i Przewodnicy złączyły się w Zakon Świętego Maximusa, porzucając dawne różnice. "}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : "Wartość wybranej przez ciebie Cechy wzrasta o 2"},
+            {"name" : "Charakter", "description" : "Uduchowieni są równie różnorodni jak ludzie"},
+            {"name" : "Wiek", "description" : "Uduchowieni żyją dłużej niż zwykli ludzie tylko, jeżeli zdobędą chwałę. Najwięksi z nich dożywają 300 lat"},
+            {"name" : "Rozmiar", "description" : "Większość Uduchowionych mierzy od 190 do 200 cm. Twój rozmiar jest średni"},
+            {"name" : "Szybkość", "description" : "Twoja bazowa szybkość wynosi 9 metrów"},
+            {"name" : "Siła Ducha", "description" : "Rzucając k6 by zdeterminować ilość otrzymanych Punktów Gaist lub Punktów Zepsucia zamiast tego rzucasz k8"},
+            {"name" : "Mutacje", "description" : "Rozpoczynając grę na poziomie pierwszym wybierasz jedną Mutację z tabeli Gaist lub tabeli Zepsucia. Gdy osiągasz trzeci poziom losujesz drugą mutację z tej samej tabeli co pierwszą "}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "elves",
+        "name" : "Elfowie",
+        "img" : "https://www.dndbeyond.com/avatars/thumbnails/43940/467/420/618/638607449394457692.png",
+        "description_short" : "Dumna i okrutne piękno",
+        "description" : [
+            {"paragraph" : "Pochodzenie elfów", "description" : "Elfy są rasą wywodzącą się od starożytnych Sylv Elfów, legendarnych prawowitych mieszkańców Ignis. Są typowo wyższe od ludzi, ich ciała są smukłe, uszy spiczaste a twarze długie i wzbudzające niepokój swoim niemożliwym pięknem."},
+            {"paragraph" : "Sylvanie", "description" : "Elfy zostały stworzone przez Sylvan, duchy natury, na długo nim powstali ludzie i zdążyły zbudować na Ignis  wspaniałą, harmoniczną cywilizację. Wszystko zmieniło się jednak wraz z przybyciem na kontynent Pierwszych Ludzi, sześć tysięcy lat temu. Większość Sylv Elfów zginęło w licznych pogromach, a ci, którzy przetrwali rozpadli się na mniejsze grupy. "}
+            
+        ],
+        "racial_bonuses" : [        ],
+        "subraces" : ["dark", "white", "forest", "mourning"]
+    },
+    {
+        "id" : "forest",
+        "name" : "Elf Leśny",
+        "img" : "https://static.wikitide.net/monstersandmemorieswiki/thumb/2/23/Woodelves_copy.jpg/300px-Woodelves_copy.jpg",
+        "description_short" : "Mieszkańcy Boskich Drzew",
+        "description" : [
+            {"paragraph" : "Shanta'aira", "description" : "Gdy umiera Sylvan jego dusza zostaje zamknięta w Shanta’aira, Boskim Drzewie o złotych liściach. Elfy budują w koronach tych dwustu-trzystu metrowych behemotów miasta, tworząc odizolowane społeczności. W sercu każdego Shanta’aira leży Kula Dusz, miejsce, do którego trafiają elfie duchy, jak i w którym można się z nimi porozumieć. Rozłupanie Kuli na specjalnym, demonicznym Kowadle uwalnia ducha Umęczonego Sylvana. "},
+            {"paragraph" : "Wygląd", "description" : "Elfy leśne są niższe niż ich kuzyni z Wysp Błogosławionych (głównie z powodu niedożywienia). Reprezentują też o wiele bardziej różnorodną paletę kolorów włosów, oczu i skóry."}
+        ],
+        "racial_bonuses" : [],
+        "subraces" : []
+    },
+    {
+        "id" : "white",
+        "name" : "Elfy Białe",
+        "img" : "https://i.pinimg.com/474x/c2/3a/7d/c23a7db643e6da45623066bf054d4d58.jpg",
+        "description_short" : "Strożytni",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Jeden z Sylvan, Sylvio, przewidziawszy nieuchronną śmierć swoich dzieci zebrał najlepszych z elfów i na setce łodzi o łabędzich dziobach poprowadził je ku Wyspom Błogosławionym, krainie wiecznego szczęścia, gdzie do dziś żyją w harmonii. Żadna inna rasa nigdy nie postawiła na Wyspach stopy, co jednak nie powstrzymało Elfów Białych przed organizacją wypraw do domu swoich przodków. Łodzie o łabędzich dziobach co jakiś czas przybijają do brzegów Ignis niosąc osadników o śnieżnobiałych włosach i arystokratycznych rysach. "},
+            {"paragraph" : "Charakter", "description" : "Elfy Białe są pretensjonalnymi, oderwanymi od rzeczywistości szlachcicami. Parają się magią i oferują swoje usługi tym, którzy na nie zasługują. Uważają, że Ignis należy im się, jako ziemia ich przodków"}
+
+        ],
+        "racial_bonuses" : [],
+        "subraces" : []
+    },
+    {
+        "id" : "dark",
+        "name" : "Elfy Jaskiniowe (Drow)",
+        "img" : "https://i.pinimg.com/originals/b7/3f/03/b73f03f38be0a5fc74f56c09337ac46b.jpg",
+        "description_short" : "Łowcy Niewolników",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Pochodzące z pustyń Krain Sal Elfy Jaskiniowe są potomkami Sylv Elfów, które ukryły się w wilgotnych, ciemnych i chłodnych jaskiniach uciekając przed pogromami. Ich skóra przyjmuje kolory od fioletu, przez szarość aż ku czerni. Elfy Jaskiniowe trudnią się handlem niewolnikami, przewożąc setki nieszczęśników z Sal do Ignis i w drugą stronę. Zgodnie z własną modą i kulturą golą oba boki głowy, zostawiając jedynie wąski pasek na wzór irokeza lub muleta. "}
+            
+        ],
+        "racial_bonuses" : [],
+        "subraces" : []
+    },
+    {
+        "id" : "mourning",
+        "name" : "Żałobnicy",
+        "img" : "https://i.pinimg.com/736x/23/a2/ab/23a2ab836ffe0a4276df52f971fe5acb.jpg",
+        "description_short" : "Dziedzictwo utracone",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Żałobnikiem określa się Elfa Leśnego, którego Shanta’aira zostało zniszczone. Ich ciała blakną, przypominając wyniszczone słońcem truchła, a same elfy tracą kontakt z naturą. Najgorsze jednak są sny - żałobnicy zmuszeni są spać, w przeciwieństwie do swoich elfich kuzynów którzy jedynie medytują. "},
+            {"paragraph" : "Tatuaże", "description" : "Żałobnicy wydają się mieć szczególną tendencję do kościanej symboliki. Wielu z nich opowiada o koszmarach, w których obserwują białe korzenie drzewa rosnące pod całym światem. "}
+        ],
+        "racial_bonuses" : [
+            {"name" : "Oddzielna biologia", "description" : "Żałobnicy są oddzielną od elfów rasą, zważywszy na ich oderwanie od Sylvańskiego rodowodu"},
+            {"name" : "Zwiększenie cechy", "description" : "Wartość twojej Zręczności wzrasta o 2, a Kondycji o 1"},
+            {"name" : "Rozmiar", "description" : "Żałobnicy nie różnią się rozmiarem od elfów leśnych. Twój rozmiar jest średni"},
+            {"name" : "Szybkość", "description" : "Twoja podstawowa szybkość to 10.5 metra"},
+            {"name" : "Wyostrzone Zmysły", "description" : "Masz biegłość w umiejętności Percepcja. Jeżeli twoje Pochodzenie również oferują ci tą biegłość, zamiast tego zyskujesz znawstwo. "},
+            {"name" : "Ulepszone widzenie w ciemności", "description" : "Potrafisz widzieć w ciemności na odległość do 32 metrów. Języki. Znasz Sylvański i jeden inny, wybrany język"},
+            {"name" : "Języki", "description" : "Znasz Sylvański i jeden inny, wybrany język"},
+            {"name" : "Gniew Żałobnika", "description" : "Za każdym razem, gdy wroga istota wykona atak, a ty jesteś w odległości co najmniej 3 metrów od niej możesz wykonać 3 metry ruchu w jej stronę. Jeżeli znajdziesz się w ten sposób w odległości 1.5 metra od niej możesz wykonać pojedynczy atak wręcz przeciwko niej lub rzucić sztuczę. "},
+            {"name" : "Korzenie", "description" : "Wyczuwasz przepływ mistycznej energii Shanta’aira pod twoimi stopami i potrafisz na nią wpływać. Zyskujesz formę ograniczonej telepatii, pozwalającej ci przekazywać emocje i proste koncepty istotom w promieniu 18 metrów od ciebie. Jesteś również świadomy, gdy istoty wchodzą w i opuszczają ten obszar "}
         ],
         "subraces" : []
     },
@@ -84,17 +320,25 @@
         "img" : "",
         "description_short" : "",
         "description" : [
-            {"paragraph" : "Pochodzenie", "description" : ""},
-            {"paragraph" : "Estetyka", "description" : ""},
-            {"paragraph" : " imiona męskie", "description" : ""},
-            {"paragraph" : " imiona żeńskie", "description" : ""}
+            {"paragraph" : "Pochodzenie", "description" : ""}
             
         ],
         "racial_bonuses" : [
-            {"name" : "Zwiększenie cechy", "description" : ""},
-            {"name" : "Biegłość", "description" : ""},
-            {"name" : "Atut", "description" : ""},
-            {"name" : "Języki", "description" : "Znasz języki Veteris i "}
+            {"name" : "Zwiększenie cechy", "description" : ""}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "",
+        "name" : "",
+        "img" : "",
+        "description_short" : "",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : ""}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : ""}
         ],
         "subraces" : []
     }
