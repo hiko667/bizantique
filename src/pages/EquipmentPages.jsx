@@ -34,8 +34,12 @@ const renderItemTable = (items) => {
 
 const equipmentTab = () => {
     return (
-        <div className="w-100 h-100 d-flex flex-column p-3">
+        <div className="w-100 h-100 d-flex flex-column p-3 gap-3">
             <h1>Ekwipunek</h1>
+            <h2>Przedmioty Magimatematyczne</h2>
+            <p>Układy Magimatematyczne są krasnoludzką odpowiedzią na Thanijskie mechanizmy zębatkowe i silniki parowe. Przypominające metalową, pokrytą runami płytkę Układy są w rzeczywistości wysoce skomplikowanymi systemami bramek logicznych, przerzutników i dekoderów. Służą do przetwarzania energii uzyskiwanej z zewnętrznych źródeł i logicznego operowania nią. Pozwalają również na rzucanie zaklęć zbyt prezycyjnych, by mógł je rzucić pozbawiony wspomagania czarodziej lub kapłan. Wykorzystywane są we wszystkim: od zabezpieczonych drzwi, przez systemy komunikacji na odległość aż po wysoce zaawansowane systemy przewidywania ruchu. Warto zaważyć, że w celu uzyskania faktycznej inteligencji Układ musi zostać Sprzęgnięty z żywym ludzkim umysłem - stąd wielu operatorów montuje sobie w głowie specjalne implanty, Gwoździe, pozwalające na korzystanie z Magimatematycznych interfejsów</p>
+            <h2>Sulfuromancja</h2>
+            <p>Głęboko pod ulicami Bizantique znajduje się skompana w wiecznym mroku jaskinia znana jako Morze Siarki. Swoją nazwę zawdzięcza szerokiemu na milę jezioru, wypełnionym roztworem kwasu siarkowego o niezwykle żrącej woni i zgubnych dla zdrowia właściwościach. Znaleźli się jednak tacy, którzy uznali, że substancję tą można wykorzystać. Od Morza Siarki do ukrytych w podziemiach fabryk biegną ołowiane rury, pompujące hektolitry Sulfu. Surowa ciecz jest następnie przekształcana w koncentrat, który pod odpowiednią stymulacją zaczyna wydzielać energię podobną do magii. Mieszkańcy podziemia wykorzystują Sulfomację (lub Sulftech) do konstruowania wszelkiego rodzaju urządzeń mechanicznych zdolnych naśladować Magimatematykę Koalicji. </p>
             {renderItemTable(data.equipment)}
         </div>
     );
@@ -84,8 +88,13 @@ const gunsTab = () => {
 
 const weaponsTab = () => {
     return (
-        <div className="w-100 h-100 d-flex flex-column p-3">
+        <div className="w-100 h-100 d-flex flex-column p-3 gap-3">
             <h1>Broń Biała</h1>
+            <p>Prócz powszechnie występującej broni białej, od czasu wybuchu Wojen Wiary żołnierze Koalicji korzystają z dwóch specyficznych rodzajów ostrzy.</p>
+            <h2>Ostrza Lux</h2>
+            <p>Ostrza Lux na pozór wyglądają jak ułamane rękojeści mieczy, toporów i włóczni. Każde z nich posiada jednak runę aktywacyjną, której naciśnięcie powoduje uruchomienie się klingi, przypominającej słoneczny promień. Ostrza Lux kute są w zamku Sol Invicta, dawnej siedzibie Zakonu Wygasłego Słońca. Tam, pod gigantycznymi soczewkami skupiającymi światło słońca w promień czystej energii metal przetapiany jest w rękojeści magicznie wzmocnione mocą Lux, Starej Bogini i patronki światła. Broń posiadająca cechę Ostrze Lux zadaje obrażenia od światłości zamiast oryginalnego typu. Jej ostrze może również zostać włączone i wyłączone, a sama broń nie może posiadać cechy Ciężka</p>
+            <h2>Ostrza Rozrywajace</h2>
+            <p>Kolokwialnie zwane Rozrywakami są o wiele powszechniejsze od Ostrzy Lux. Ich ząbkowane klingi pokryte są specjalnym metalem wprawiającym całą broń w mikro-drgania w kontakcie z żelazem we krwi celu. Broń posiadająca cechę Ostrze Rozrywające. Za każdym razem, gdy trafiasz istotę posiadającą krew zyskujesz bonus +1 do obrażeń następnego ataku. Bonus kumuluje się aż do +3 i znika, jeżeli nie wykonasz ataku przez całą rundę.</p>
             {renderItemTable(data.weapons)}
         </div>
     );

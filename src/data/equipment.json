@@ -12,12 +12,19 @@
         {"Nazwa" : "Strzelba","Cechy" : "Zacięcie(4), Precyzja(17), Magazynek(1), Strzelba", "Obrażenia" : "2k10 cięte", "Waga" : "3 kg", "Koszt" : "100 sz"}
     ],
     "weapons" : [
-        {"Nazwa" : "","Cechy" : "", "Obrażenia" : "", "Waga" : "", "Koszt" : ""}
+        {"Nazwa" : "Miecz Dwuręczny Lux","Cechy" : "Ostrze Lux, Dwuręczna", "Obrażenia" : "2k6 od światłości", "Waga" : "1 kg", "Koszt" : "Bezcenne"},
+        {"Nazwa" : "Miecz Długi Lux","Cechy" : "Ostrze Lux, Półtoraręczna(k10)", "Obrażenia" : "k8 od światłości", "Waga" : "0.8 kg", "Koszt" : "Bezcenne"},
+        {"Nazwa" : "Włócznia Lux","Cechy" : "Ostrze Lux, Półtoraręczna(k8)", "Obrażenia" : "k6 od światłości", "Waga" : "1 kg", "Koszt" : "Bezcenne"},
+        {"Nazwa" : "Rozrywający Miecz Dwuręczny","Cechy" : "Ciężka, Dwuręczna, Ostrze Rozrywające", "Obrażenia" : "3k4 cięte", "Waga" : "4 kg", "Koszt" : "60 sz"},
+        {"Nazwa" : "Rozrywający Topór Wojenny","Cechy" : "Ciężka, Ostrze Rozrywające", "Obrażenia" : "k12 cięte", "Waga" : "5 kg", "Koszt" : "40 sz"},
+        {"Nazwa" : "Sulftechowa Piła Mechaniczna","Cechy" : "Ciężka, Dwuręczna, Ostrze Rozrywające", "Obrażenia" : "3k4 cięte + k4 od trucizny", "Waga" : "10 kg", "Koszt" : "150 sz"}
+
+
     ],
     "armour" : [
         {"Nazwa" : "Maska tlenowa Straży Miejskiej","KP" : "-", "Opis" : "Strażnicy Miejscy noszą specjalne maski tlenowe zawsze, gdy zapuszczają się w regiony Podziemi i Morza Siarki. Maski filtrują szkodliwe gazy i negują wszelkie obrażenia i stany wynikające z kontaktu z nimi ", "Siła" : "-", "Skradanie Się" : "-", "Waga" : "1 kg", "Cena" : "10 sz"},
         {"Nazwa" : "Egzoszkielet Zakonu Św. Maximusa","KP" : "+2", "Opis" : "Zasilany Magimatematycznie egzoszkielet", "Siła" : "13", "Skradanie Się" : "Utrudnienie", "Waga" : "5 kg", "Cena" : "Bezcenne"},
-        {"Nazwa" : "Egzoszkielet z Podziemia","KP" : "+1", "Opis" : "Marna kopia egzoszkieletów noszonych przez zakonników Św. Maximusa. Zasilana prostymi układami matematycznymi i gazami z Morza Siarki", "Siła" : "13", "Skradanie Się" : "Utrudnienie", "Waga" : "10 kg", "Cena" : "120 sz"},
+        {"Nazwa" : "Egzoszkielet z Podziemia","KP" : "+1", "Opis" : "Marna kopia egzoszkieletów noszonych przez zakonników Św. Maximusa. Zasilana prostymi układami matematycznymi i Sulftechem", "Siła" : "13", "Skradanie Się" : "Utrudnienie", "Waga" : "10 kg", "Cena" : "120 sz"},
         {"Nazwa" : "Kogitator Pędu","KP" : "-", "Opis" : "", "Siła" : "", "Skradanie Się" : "", "Waga" : "", "Cena" : ""}
     ],
     "implants" : [
