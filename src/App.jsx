@@ -7,6 +7,7 @@ import DataBasePage from './pages/DataBasePage';
 import FactionsPage from './pages/FactionsPage';
 import RacesPage from './pages/RacesPage';
 import EquipmentPage from './pages/EquipmentPages';
+import HomePage from './pages/HomePage';
 
 export default function App() {
 
@@ -15,7 +16,8 @@ export default function App() {
         <HashRouter>
                 <Menu/>
                 <Routes>
-                    <Route path = "*" element = {<Navigate to="/map" replace/>}/>
+                    <Route path = "*" element = {<Navigate to="/" replace/>}/>
+                    <Route path='/' element = {<HomePage/>}/>
                     <Route path = "/map/" element = {<MapPage/>}/>
                     {/* <Route path = "/factions/" element = {<FactionsPage/>}/> */}
                     {/* <Route path = "/data" element = {<DataBasePage/>}/> */}

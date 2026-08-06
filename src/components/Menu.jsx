@@ -3,12 +3,11 @@ import { Link } from "react-router-dom";
 
 
 export default function Menu(){
-    
     return(
     <Navbar expand="lg" className="bg-dark z-1000">
-        <Navbar.Toggle color="white"/>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-dark" />
         <Container>
-            <Navbar.Brand className="text-light" as={Link} to="/map">
+            <Navbar.Brand className="text-light" as={Link} to="/">
             <img
                         alt=""
                         src="eye.png"

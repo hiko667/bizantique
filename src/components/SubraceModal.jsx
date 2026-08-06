@@ -4,15 +4,15 @@ import { Fragment } from "react";
 export default function SubraceModal({show, subrace, onHide}){
 
     return(
-        <Modal show = {show} fullscreen = {true} style={{width : "100vw"}}>
+        <Modal show={show} fullscreen={true} style={{width: "100vw"}}>
             <Modal.Header className="bg-dark text-light">
                 <h1>{subrace?.name}</h1>
-                <CloseButton variant = "white" onClick={onHide}/>
+                <CloseButton variant="white" onClick={onHide}/>
             </Modal.Header>
             <Modal.Body className="bg-dark text-light">
-                <div className="d-flex flex-row">
-                    <div className="w-20 h-100 m-3">
-                        <Image fluid thumbnail src={subrace?.img !== "" ? subrace?.img : "eye.png"} style={{maxWidth : "300px"}}/>
+                <div className="d-flex flex-column flex-sm-row">
+                    <div className="m-3">
+                        <Image fluid thumbnail src={subrace?.img !== "" ? subrace?.img : "eye.png"} style={{maxWidth: "300px"}}/>
                     </div>
                     <div className="w-100 h-100 m-3 overflow-auto">
                         {subrace?.description.map((e, index) => (

@@ -76,6 +76,7 @@ const gunsTab = () => {
                 <ListGroupItem><b>Ciężka Broń Palna</b>. Istoty o Sile poniżej 15 oddając strzał z tej broni nie mogą się w tej samej turze poruszyć. Istota te nie może też nosić tej broni w ekwipunku</ListGroupItem>
                 <ListGroupItem><b>Strzelba</b>. Broń jest strzelbą. Obrażenia strzału otrzymują wszystkie istoty w stożku o długości 3 metrów. Możesz użyć Siły zamiast Zręczności by użyć tej broni. </ListGroupItem>
             </ListGroup>
+            <h2 className="mb-3">Przykładowa Broń Palna</h2>
             {renderItemTable(data.guns)}
         </div>
     );

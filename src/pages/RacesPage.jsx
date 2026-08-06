@@ -2,7 +2,7 @@ import { Fragment, useState } from "react"
 import RaceCard from "../components/RaceCard"
 import races from "../data/races.json"
 import { Button } from "react-bootstrap"
-import Collapse from 'react-bootstrap/Collapse';
+import {Fade} from 'react-bootstrap';
 import SubraceModal from "../components/SubraceModal";
 import { ChevronLeftIcon } from "lucide-react";
 
@@ -71,27 +71,27 @@ export default function RacesPage() {
 
                     <div style={gridStyle}>
                         {currentSubraces.map((subrace) => (
-                            <Collapse in={true} dimension = "height" appear={true} key={subrace.id}>
+                            <Fade in={true} dimension = "height" appear={true} key={subrace.id}>
                                 <div>
                                     <RaceCard race={subrace} 
                                     onClick={() => onSubraceModal(subrace)}
                                     />
                                 </div>
-                            </Collapse>
+                            </Fade>
                         ))}
                     </div>
                 </div>
             ) : (
                 <div style={gridStyle}>
                     {racesWithSubraces.map((race) => (
-                        <Collapse in={true} dimension = "height" appear={true} key={race.id}>
+                        <Fade in={true} dimension = "height" appear={true} key={race.id}>
                             <div>
                                 <RaceCard
                                     race={race}
                                     onClick={() => setCurrentRace(race)}
                                 />
                             </div>
-                        </Collapse>
+                        </Fade>
                     ))}
                 </div>
             )}
