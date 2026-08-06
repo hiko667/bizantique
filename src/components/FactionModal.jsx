@@ -4,7 +4,7 @@ import { Fragment } from "react";
 export default function FactionModal({faction, show, onHide}){
 
     return(
-        <Modal show = {show} fullscreen>
+        <Modal show = {show} fullscreen style={{width : "100vw"}}>
             <Modal.Header className="bg-dark text-light">
                 <h1>{`${faction?.name} - ${faction?.short_description}`}</h1>
                 <CloseButton color="white" onClick={onHide}/>
