@@ -3,7 +3,6 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 import { HashRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Menu from './components/Menu';
 import MapPage from './pages/MapPage';
-import DataBasePage from './pages/DataBasePage';
 import FactionsPage from './pages/FactionsPage';
 import RacesPage from './pages/RacesPage';
 import EquipmentPage from './pages/EquipmentPages';
@@ -19,8 +18,7 @@ export default function App() {
                     <Route path = "*" element = {<Navigate to="/" replace/>}/>
                     <Route path='/' element = {<HomePage/>}/>
                     <Route path = "/map/" element = {<MapPage/>}/>
-                    {/* <Route path = "/factions/" element = {<FactionsPage/>}/> */}
-                    {/* <Route path = "/data" element = {<DataBasePage/>}/> */}
+                    <Route path = "/factions/" element = {<FactionsPage/>}/>
                     <Route path = "/races/" element = {<RacesPage/>}/>
                     <Route path = "/equipment/" element = {<EquipmentPage/>}/>
                 </Routes>

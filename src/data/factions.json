@@ -1,0 +1,52 @@
+[
+    {
+        "id" : "antrax",
+        "name" : "Rodzina Antrax",
+        "img" : "coats/Antrax_token.png",
+        "short_description" : "Producenci broni i bankierzy",
+        "description" : [
+            {"paragraph" : "A", "description" : "B"}
+        ],
+        "relations" : [
+            {"faction_id" : "cohammer", "relation" : "Dostawy"},
+            {"faction_id" : "siriman", "relation" : "Rywale"}
+        ]
+    },
+    {
+        "id" : "cohammer",
+        "name" : "Rodzina Cohammer",
+        "img" : "coats/Cohammer_token.png",
+        "short_description" : "Wyroby i konstrukcje z kasnoludzkiej stali",
+        "description" : [
+            {"paragraph" : "A", "description" : "B"}
+        ],
+        "relations" : [
+
+        ]
+    },
+    {
+        "id" : "siriman",
+        "name" : "Rodzina Siriman",
+        "img" : "coats/Siriman_token.png",
+        "short_description" : "Architektura, budownictwo i materiały budowlane",
+        "description" : [
+            {"paragraph" : "A", "description" : "B"}
+        ],
+        "relations" : [
+            {"faction_id" : "cohammer", "relation" : "Dostawy"}
+        ]
+    },
+    {
+        "id" : "townguard",
+        "name" : "Straż Miejska",
+        "img" : "coats/Antrax_token.png",
+        "short_description" : "Złota Pięść Senatu",
+        "description" : [
+            {"paragraph" : "Postrach", "description" : "W Bizantique prawo egzekwowane jest przez zbrojne ramię Senatu: Straż Miejską. Jej członków rozpoznać można po prostych mundurach barwy khaki, wtapiający się w tło piaskowca i szkarłatnych płaszczach sygnowanych godłem rodowym Pretora, dowódcy Straży. Straż jest bezwzględną siłą pilnującą interesów Patrycjuszy, a Plebejuszy w najlepszym przypadku zostawiającą w spokoju. Pojmani przestępcy osądzani są przez Sędziego - Senatora i jego podwładnych. Miejskie lochy osadzone są w Odwróconej Wierzy. "},
+            {"paragraph" : "Pretor Casius Gaius Antrax", "description" : "Obecnym Pretorem Straży jest jest Casius Gaius Antrax, z Rodziny Przemysłowej Antrax. Jest bezwzględnym mężczyzną, powszechnie chwalonym za nacisk, jaki kładzie na “oczyszczanie” podziemi. Jego herbem jest biała dłoń na złotym tle."}
+        ],
+        "relations" : [
+            {"faction_id" : "antrax", "relation" : "Powiązani"}
+        ]
+    }
+]
