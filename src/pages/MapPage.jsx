@@ -83,7 +83,7 @@ export default function MapPage() {
                     <Offcanvas.Body>
                         <div className="overflow-auto text-light">
                             <div className="d-flex justify-content-center">
-                                <Image src={selectedLocation.img} thumbnail fluid />
+                                <Image src={selectedLocation.img ? selectedLocation.img : "eye.png"} thumbnail fluid />
                             </div>
                             <p className="py-3">{selectedLocation.description}</p>
                         </div>

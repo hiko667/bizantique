@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 
 export default function Menu(){
     return(
-    <Navbar expand="lg" className="bg-dark z-1000">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-dark" />
+    <Navbar expand="lg" aria-controls="basic-navbar-nav" className="bg-dark navbar-dark z-1000 ">
+        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-dark" /> */}
         <Container>
             <Navbar.Brand className="text-light" as={Link} to="/">
             <img

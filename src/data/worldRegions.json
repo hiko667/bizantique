@@ -2,8 +2,8 @@
     {
         "id": "riheim",
         "name": "Księstwo Riheimu",
-        "description" : "Lubią wino",
-        "img" : "",
+        "description" : "Znany jako kraina wina i koni Riheim zajmuje spory wycinek południowego Ignis. Jego klimat jest ciepły, a na terytorium składają się poprzecinane rzekami równiny. W centralnym Księstwie znaleźć można łańcuch Gór Bernarda, oddzielających Północny Riheim od Południowego. Władzę w państwie sprawuje Książę Żebraków urzędujący w Rihenheimie. Każdy kolejny władca przejmuje ten sam tytuł. Książę wybierany jest spośród Riheimskich Baronów, przez Riheimskich Baronów po śmierci poprzedniego księcia.",
+        "img" : "https://i.pinimg.com/736x/92/a9/ae/92a9aebb2b5e2092d33592fd755197d9.jpg",
         "color": "#ab9a00",
         "coordinates": [
         [671, 1379.5],
@@ -82,9 +82,9 @@
     {
         "id": "slavia",
         "name": "Królestwo Slavii",
-        "description" : "",
+        "description" : "Slavia jest porośniętym rozległymi puszczami regionem zajmującym terytoria po zachodniej stronie Wielkiego Muru Rubijskiego. Populacja Slavii jest jedynym państwem południowo wschodniego Ignis opierającym się ekspansji Kościoła. Choć większość jego mieszkańców należy do Wierzących, przeszło trzecia część wciąż czci duchy lasów i regularnie składa im ofiary - tak zwani Poganie. Gaje Pogańskie znajdują się głównie na południu królestwa, w najgłębszych i najbardziej niedostępnych zakamarkach lasów",
         "color": "#339136",
-        "img" : "",
+        "img" : "https://i.pinimg.com/1200x/5c/d8/24/5cd824467af7abc440251dd496abf1d7.jpg",
         "coordinates": [
             [671, 1379.5],
             [658, 1368],
@@ -115,8 +115,8 @@
     {
         "id": "skyland",
         "name": "Księstwo Skylandu",
-        "description" : "",
-        "img" : "",
+        "description" : "Księstwo Skylandu ma długą historię opierania się najeźdźcom, co sprawiło, że jego mieszkańcy są równie twardzi jak góry, na których stoi ich państwo. Mówi się, że Skyland to ostatnia ostoja rycerstwa i honoru. Kraj jest pełen zapomnianych wsi i górskich fortec. Najbardziej znaną z nich z pewnością jest Zamek Moontower, najwyższa wzniesiona ludzkimi rękoma konstrukcja, będąca jednocześnie rezydencją Księcia Ulfryka. Od czasów Upadku Beliana część populacji Skylandu stanowią Zwierzoludzie, mutanci przemienieni w groteskowe karykatury przez energię Boskiej Rzezi. Choć część z nich zdołała zintegrować się z społeczeństwem, wiele plemion nadal stanowi śmiertelnie groźny problem",
+        "img" : "https://i.pinimg.com/736x/34/f0/cd/34f0cd217464752f4c01e585eecf6e20.jpg",
         "color": "#267ef0",
         "coordinates": [
             [619, 1215.25],
@@ -170,9 +170,9 @@
     {
         "id": "elda",
         "name": "Księstwo Eldy",
-        "description" : "",
-        "img" : "",
-        "color": "#00a331",
+        "description" : "Północną granicę Krain Człowieka stanowi Elda. Nie jest do końca państwem, a bardziej zbiorem luźno powiązanych plemion, grup i miasteczek rozrzuconych po spalonych słońcem górach. Od czasu rozpoczęcia Wojen Wiary Elda stała się centrum operacji Koalicji, co zdecydowanie nie spodobało się eldańczykom. Obecnie eldańcy partyzanci są drzazgą w oku zarówno Koalicyjnych jak i Heretyckich oddziałów. ",
+        "img" : "https://i.pinimg.com/736x/1b/0e/dd/1b0edd1084cef53436cfa82a27c27eed.jpg",
+        "color": "#fcba03",
         "coordinates": [
             [782.5, 1390],
             [767.75, 1361.75],
@@ -200,7 +200,7 @@
     {
         "id": "rubia",
         "name": "Święte Dominium Rubii",
-        "description" : "",
+        "description" : "Rubia jest lesistą krainą wschodniego Ignis. Leży za Wielkim Murem Rubijskim i stanowi on jej główną linię obrony. Święte Dominium Rubijskie zostało sformowane blisko trzysta lat temu z dawnych Trzech Królestw Rubii, gdy Satynowy Król dobił targu z pozostałymi i objął kompletną władzę. Rubia jest krajem odizolowanym od reszty świata, zarówno geograficznie jak i kulturowo. Jej mieszkańcy wyznają odłam Kościoła, który głosi, że Cesarzowa, władczyni Dominium, jest Mesjaszem, zapowiadanym przez Łazarza zbawcą. Społeczeństwo Rubii jest wysoce nietolerancyjne. Z żyjących na Ignis ras jedynie krasnoludy są tolerowane i to tylko ze względu na starożytne pakty z Ery Dominium",
         "color": "#880808",
         "img" : "",
         "coordinates": [
@@ -273,8 +273,8 @@
     {
         "id": "thania",
         "name": "Republika Thanii",
-        "description" : "",
-        "img" : "",
+        "description" : "Położona na wyspach na zachód od kontynentu Republika Thanii jest państwem zniszczonym. Jej niegdyś bujne lasy zostały wycięte, a zastąpiły je wyjące fabryki i tłoczne miasta. Kultura Thanijczyków wykształcała się niezależnie od reszty Ignis i to już od czasów Dominium, stąd dla ludzi z kontynentu mogą oni być dziwni, podejrzani i czasem nawet agresywni, mimo braku takich zamiarów. To z Thanii pochodzą Drakoni i to Thanijczycy mają z nimi najlepsze relacje, doskonale rozumiejąc i często podzielając ich wiarę ",
+        "img" : "https://i.pinimg.com/1200x/da/65/e4/da65e4bff87cb203a6065f2fcc2d38d1.jpg",
         "color": "#4100a3",
         "coordinates": [
             [601, 1682.25],
@@ -355,7 +355,7 @@
     {
         "id": "sunland",
         "name": "Wyspy Słoneczne",
-        "description" : "",
+        "description" : "Wyspy Słoneczne są archipelagiem złożonym z trzech wysp, położonym na południowo zachodniej części Morza Rubinowego. Otacza je rozległa rafa koralowa, a także okazjonalne podmuchy Czerwonych Mgieł. Oba te czynniki uniemożliwiają opuszczenie archipelagu przez mniejsze jednostki pływające, efektywnie więżąc większość rozbitków, którzy mieli na tyle mało szczęścia, by się na nich rozbić. Pomiędzy dwoma większymi wyspami, zachodnią Kuhi-kuhi i wschodnią Nehelele leży Zatoka Wulkaniczna, pełna, jak sama nazwa mówi, podwodnych wulkanów, często podgrzewających wodę do temperatur bliskich wrzeniu. Wyspy zamieszkują dwie grupy etniczne: Kanaka, rdzenni mieszkańcy wywodzący się z Hizuru oraz Skylandczycy pochodzący od Skylandzkich rozbitków. Dzień na Wyspach Słonecznych trwa 32 godziny, a prócz Nocy i Dnia istnieje tam także tak zwana Pora Zórz",
         "img" : "",
         "color": "#f8ff3b",
         "coordinates": [
@@ -594,7 +594,7 @@
         "id": "greatwall",
         "name": "Wielki Mur Rubijski",
         "description" : "",
-        "img" : "",
+        "img" : "https://i.pinimg.com/736x/39/69/cc/3969cc03b3833ae037967ba7d93594df.jpg",
         "color": "#c94a40",
         "coordinates": [
             [583.75, 1398],

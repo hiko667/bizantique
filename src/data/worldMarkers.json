@@ -1,3 +1,18 @@
 [
-    
+    {
+        "id" : "bizantique",
+        "name" : "Bizantque",
+        "description" : "",
+        "img" : "",
+        "x" : 1153,
+        "y" : 387
+    },
+    {
+        "id" : "socorro",
+        "name" : "Przesmyk Socorro",
+        "description" : "Jedyne znane przejście przez Mgły",
+        "img" : "https://c4.wallpaperflare.com/wallpaper/96/441/123/sailing-ship-rocks-ocean-abandoned-wallpaper-preview.jpg",
+        "x" : 533,
+        "y" : 6
+    }
 ]
