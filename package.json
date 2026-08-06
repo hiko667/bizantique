@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "bootstrap": "^5.3.8",
@@ -25,6 +25,7 @@
     "react-leaflet": "^5.0.0",
     "react-router": "^8.3.0",
     "react-router-dom": "^7.18.2",
+    "react-vertical-timeline-component": "^4.0.0",
     "three": "^0.185.1",
     "three-spritetext": "^1.10.0"
   },

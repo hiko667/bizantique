@@ -14,5 +14,5 @@ Ignis is my D&D worldbuiling project. I previously used Google Blogger to docume
 
 ## Deployed verson
 
-[Deployed on google pages](https://hiko667.github.io/bizantique/)
+[Deployed on github pages](https://hiko667.github.io/bizantique/)
 
