@@ -329,6 +329,106 @@
         "subraces" : []
     },
     {
+        "id" : "dwarf",
+        "name" : "Krasnoludy",
+        "img" : "https://i.pinimg.com/1200x/6d/12/09/6d1209518dfee6e6479f5a8096fa7d5f.jpg",
+        "description_short" : "Starsi Bracia",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Krasnoludy są rasą sojuszniczą ludzi, z którymi łączy ich długa historia współpracy i wewnętrznych napięć. W większości skupisk cywilizacji stanowią swoistą równoległe społeczeństwo, równe, ale oddzielne. Krasnoludy pełnią rolę wykwalifikowanych pracowników administracyjnych, inżynierów i rzemieślników, ciesząc się dobrą renomą uczciwych kontrahentów. Krasnoludy mierzą do 1.5 metra i charakteryzują się beczułkowatą budową ciała. Brody zapuszczają zarówno kobiety jak i mężczyźni, choć w niektórych klanach przyjęło się, by żonate krasnoludki goliły swój zarost."},
+            {"paragraph" : "Dwarfy", "description" : "Pierwsze klany, według legend, uformowane zostały z żelazistej gliny i wypalone w ogniach wulkanów przez radę trzynastu Dwarfów. Były to wielkie kamienne pomniki, obdarzone świadomością i mądrością, stworzone przed Boskiego Gringaxa. Każdy z nich wybrał sobie jeden z klanów, dla których stali się przywódcami i przewodnikami. Dwarfowie nauczyli krasnoludy całej swojej wiedzy: obróbki metali, handlu i obrotu pieniądzem. Dwarfowie istnieją do dziś. Zasnęli zmienili się na zawsze w kamień, spoczywając w centrach siedzib klanów. Krasnoludy do dziś czczą te zastygłe pomniki jako miejsca spotkań z przodkami i swoimi stwórcami"},
+            {"paragraph" : "Klany", "description" : "Klany mają swoje siedziby w górskich i wzgórzowych twierdzach, gdzie dziesiątki pokoleń żyją w ciasto splecionych społecznościach. Podczas przebywania w fortecy klanu każdy krasnolud dostaje przydzieloną przez starszyznę rolę: czy to jako kucharz w jednej z monstrualnych stołówek czy jako górnik głęboko w ciemnych, oświetlonych światłem świec kopalniach"}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Wiedza o kamieniu", "description" : "Twoja cecha Wiedza o kamieniu zostaje zastąpiona wyspecjalizowaną, zależną od podrasy cechą"}
+        ],
+        "subraces" : ["golden", "mountain"]
+    },
+    {
+        "id" : "golden",
+        "name" : "Krasnoludy Złote",
+        "img" : "https://i.pinimg.com/736x/ae/39/14/ae3914cf3dbb64f67654523dda0ce317.jpg",
+        "description_short" : "Ziarno do ziarnka i stracisz majątek",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Szczuplejsi zachodni kuzyni krasnoludów Górskich, Krasnoludy Złote zamieszkują terytorium Wysp Szarych i Księstwa Riheimu, sporadycznie pojawiając się we wszystkich częściach świata. Trudnią się handlem, jubilerstwem i najważniejsze, bankierstwem. Wszystkie znaczące banki Ignis kontrolowane są przez Krasnoludy. Nawet Koalicja, jak potężna by nie była, uzależniona jest od ich usług i sprawnego zarządzania finansami."}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Grosz do Grosza", "description" : "Zastępuje Wiedzę o kamieniu. Automatycznie rozpoznajesz skąd pochodzą monety z precyzją do mennicy. Masz biegłość w testach Inteligencji (Historia) związanych z wytworami z metali szlachetnych i dodajesz do tych testów podwójną premię z biegłości"}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "mountain",
+        "name" : "Krasnoludy Górskie",
+        "img" : "https://i.pinimg.com/736x/68/c0/7a/68c07a276f8dd7f89a8547834200ca6d.jpg",
+        "description_short" : "Progres ponad wszystko",
+        "description" : [
+            {"paragraph" : "Inżynierowie i Matematycy", "description" : "Krasnoludy górskie pochodzą z wschodu Ignis, zamieszkując terytoria Gór Czarcich i Świętego Dominium Rubii. Zamieszkują wysoko położone fortece klanowe ciągnące się na mile w głąb ziemi. Krasnoludy górskie są prawdopodobnie najbardziej zaawansowaną rasą Ignis, będąc doskonałymi inżynierami i twórcami esencjonalnych dla Magimatematyki czipów runicznych. Produkcja wspomnianych podsystemów możliwa jest jedynie w siedzibie klanu Stormbringer, Wolnym Mieście na północy Rubii, zaopatrującym cały świat w ten cenny zasób"}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Papiery Inżyniera", "description" : "Masz biegłość w testach Inteligencji związanych z Magimatematyką i interakcjami z Układami Magimatematycznymi. Dodajesz do tych testów podwójną premię z bieŋłości"}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "broods",
+        "name" : "Pomioty",
+        "img" : "https://cdnb.artstation.com/p/assets/images/images/049/422/033/large/srifez-kostyakeldaweb2.jpg?1652447986",
+        "description_short" : "Dzieci Obcych Planów",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : ""}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : ""}
+        ],
+        "subraces" : ["tiefling_belian", "tiefling_tor", "tiefling_namul", "tiefling_hangron", "vesper_winged", "vesper_eyes", "vesper_nefilim"]
+    },
+    {
+        "id" : "halflings",
+        "name" : "Niziołki",
+        "img" : "https://i.pinimg.com/736x/d6/ec/22/d6ec22b649af30694c2a96475036123d.jpg",
+        "description_short" : "Podróżnicy",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : ""}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : ""}
+        ],
+        "subraces" : ["none"]
+    },
+    {
+        "id" : "goblins",
+        "name" : "Gobliny",
+        "img" : "https://i.pinimg.com/1200x/89/5c/9e/895c9e4cbc92f649331a36c542a55444.jpg",
+        "description_short" : "",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : ""}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : ""}
+        ],
+        "subraces" : ["none"]
+    },
+    {
+        "id" : "orcs",
+        "name" : "Orkowie",
+        "img" : "https://i.pinimg.com/736x/0f/0c/e6/0f0ce6f748b78788cc72fd6b151caf06.jpg",
+        "description_short" : "",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : ""}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cechy", "description" : ""}
+        ],
+        "subraces" : ["none"]
+    },
+    {
         "id" : "",
         "name" : "",
         "img" : "",

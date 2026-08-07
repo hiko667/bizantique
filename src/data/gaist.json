@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Oczy Pana",
+        "effect": "Twoje ciało wykształca dodatkowe oczy. Zyskujesz ułatwienie we wszystkich testach Percepcji opartych na wzroku"
+    },
+    {
+        "id": 2,
+        "name": "Ostrze Światła",
+        "effect": "Otrzymujesz Żołnierską Broń Białą, którą możesz przywołać w każdym momencie w ramach Akcji Dodatkowej. Broń zadaje obrażenia od światłości i jest magiczna. Do obrażeń dodajesz swoją premię z biegłości"
+    },
+    {
+        "id": 3,
+        "name": "Skrzydła",
+        "effect": "Raz na długi odpoczynek możesz zamanifestować parę śnieżnobiałych, anielskich skrzydeł. Przez minutę dają ci prędkość lotu 18 metrów"
+    },
+    {
+        "id": 4,
+        "name": "Aureola",
+        "effect": "Wokół twojej głowy unosi się złocista bądź ognista aureola. Emituje światło na odległość 9 metrów"
+    },
+    {
+        "id": 5,
+        "name": "Linie Światła",
+        "effect": "Twoja skóra pokrywa się złocistymi liniami"
+    },
+    {
+        "id": 6,
+        "name": "Siła Achilla",
+        "effect": "Twoja Siła wzrasta o 2. Twój maksymalny ciężar dźwigania podwaja się"
+    },
+    {
+        "id": 7,
+        "name": "Chwała",
+        "effect": "Masz ułatwienie we wszystkich testach Charyzmy dotyczących przywództwa"
+    },
+    {
+        "id": 8,
+        "name": "Ostatni Cios",
+        "effect": "Zawsze, gdy przeciwnik może zginąć od jednego uderzenia twojej Broni Białej (nie licząc trafień krytycznych) masz ułatwienie w tym teście ataku"
+    },
+    {
+        "id": 9,
+        "name": "Potępienie",
+        "effect": "Jeżeli masz dodatnie Punkty Ducha możesz wydać jeden, by podwoić obrażenia ataku dystansowego i zmienić typ ich obrażeń na obrażenia od światłości"
+    },
+    {
+        "id": 10,
+        "name": "Szlachetne Rysy",
+        "effect": "Stajesz się niezwykle przystojny / piękna"
+    },
+    {
+        "id": 11,
+        "name": "Albinizm",
+        "effect": "Stajesz się albinosem"
+    },
+    {
+        "id": 12,
+        "name": "Oko Pana",
+        "effect": "Na twoim czole otwiera się złociste oko emanujące energią światłości. Jesteś w stanie rozpoznać charakter istoty w ramach akcji dodatkowej. Po użyciu tej umiejętności możesz z niej skorzystać dopiero po zakończeniu długiego odpoczynku"
+    },
+    {
+        "id": 13,
+        "name": "Twarde Kości",
+        "effect": "Twoje ataki wręcz bez broni zyskują premię do obrażeń równą k4 obrażeń obuchowych. Twoje kończyny nie mogą zostać złamane"
+    },
+    {
+        "id": 14,
+        "name": "Stalowa Wola",
+        "effect": "Masz ułatwienie w testach przeciwko Zauroczeniu, Uśpieniu i Przerażeniu"
+    },
+    {
+        "id": 15,
+        "name": "Posłaniec",
+        "effect": "Poznajesz zaklęcie Znalezienie Chowańca. Przyjmuje on formę i statystyki wybranej Bestii o SW mniejszym lub równym 1, lecz jego typ istoty to Niebianin"
+    },
+    {
+        "id": 16,
+        "name": "Gniew Pana",
+        "effect": "W ramach akcji dodatkowej objawiasz wszystkim istotom w odległości 9 metrów gniew Pana Aniołów. Muszą one wykonać rzut obronny na Charyzmę o ST 13. W przypadku porażki stają się przerażone tobą na k4 rund. Po użyciu tej umiejętności nie jesteś w stanie z niej skorzystać aż do ukończenia długiego odpoczynku"
+    },
+    {
+        "id": 17,
+        "name": "Żywa Rzeźba",
+        "effect": "Twoje ciało zdaje się być wykonane z marmuru lub wybranego przez ciebie metalu. Zachowuje teksturę normalnej skóry"
+    },
+    {
+        "id": 18,
+        "name": "Świadectwo",
+        "effect": "Stajesz się niepodatny na obrażenia od ognia"
+    },
+    {
+        "id": 19,
+        "name": "Łaska",
+        "effect": "Zyskujesz dodatkową komórkę k4 kręgu. Jeżeli nie umiesz rzucać czarów, zamiast tego poznajesz dwie wybrane sztuczki z listy zaklęć kleryka. Twoją cechą bazową dla tych sztuczek jest Charyzma"
+    },
+    {
+        "id": 20,
+        "name": "Cud",
+        "effect": "Raz na długi odpoczynek możesz rzucić zaklęcie Mniejsze Przywrócenie bez zużywania komórki czarów. Zaklęcie to zostaje dodane do twojej listy czarów i liczy się jako zawsze przygotowane"
+    }
+]

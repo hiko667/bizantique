@@ -1,7 +1,7 @@
 import ForceGraph2D from "react-force-graph-2d";
 import data from "../data/factions.json";
 import FactionModal from "../components/FactionModal";
-import { useState, useCallback } from "react";
+import { useState, useCallback, useRef } from "react";
 
 const nodes = data.map(faction => ({
     id: faction.id,
@@ -24,11 +24,11 @@ const gData = { nodes, links };
 export default function FactionsPage() {
     const [currentFaction, setCurrentFaction] = useState(null);
     const [showFactionModal, setShowFactionModal] = useState(false);
+    const fgRef = useRef();
+    const hasFrozen = useRef(false); // żeby zamrozić tylko raz, przy pierwszym ustabilizowaniu
 
     const handleNodeClick = useCallback((node, e) => {
         setCurrentFaction(node);
-        console.log(node)
-        setCurrentFaction(node)
         setShowFactionModal(true);
     }, []);
 
@@ -62,13 +62,36 @@ export default function FactionsPage() {
         ctx.fillText(link.label, textPos.x, textPos.y);
     }, []);
 
+    // Gdy symulacja fizyki się ustabilizuje (nody się rozejdą i przestaną poruszać),
+    // przypinamy je na stałe w aktualnych pozycjach.
+    const handleEngineStop = useCallback(() => {
+        if (hasFrozen.current) return;
+        hasFrozen.current = true;
+
+        gData.nodes.forEach(node => {
+            node.fx = node.x;
+            node.fy = node.y;
+        });
+
+        // wymusza przerysowanie z zamrożonymi pozycjami
+        fgRef.current?.refresh?.();
+    }, []);
+
     return (
         <div className="w-100 h-100">
             <FactionModal show={showFactionModal} faction={currentFaction} onHide={() => setShowFactionModal(false)}/>
             <ForceGraph2D
+                ref={fgRef}
                 graphData={gData}
                 nodeLabel="name"
                 minZoom={10}
+                cooldownTicks={200}
+                onEngineStop={handleEngineStop}
+                onNodeDragEnd={node => {
+                    node.fx = node.x;
+                    node.fy = node.y;
+                    node.fz = node.z;
+                }}
                 linkColor={() => '#ffffff'}
                 linkDirectionalParticles={10}
                 linkDirectionalParticleSpeed={0.005}

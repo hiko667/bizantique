@@ -7,6 +7,7 @@ import FactionsPage from './pages/FactionsPage';
 import RacesPage from './pages/RacesPage';
 import EquipmentPage from './pages/EquipmentPages';
 import HomePage from './pages/HomePage';
+import RulesPage from './pages/RulesPage';
 
 export default function App() {
 
@@ -21,6 +22,7 @@ export default function App() {
                     <Route path = "/factions/" element = {<FactionsPage/>}/>
                     <Route path = "/races/" element = {<RacesPage/>}/>
                     <Route path = "/equipment/" element = {<EquipmentPage/>}/>
+                    <Route path='/rules/' element = {<RulesPage/>}/>
                 </Routes>
         </HashRouter>
     </div>

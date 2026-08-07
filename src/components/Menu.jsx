@@ -22,6 +22,7 @@ export default function Menu(){
                 <Nav.Link className="mx-3" as={Link} to="/factions">Frakcje</Nav.Link>
                 <Nav.Link className="mx-3" as={Link} to="/races">Rasy Ignis</Nav.Link>
                 <Nav.Link className="mx-3" as={Link} to="/equipment">Ekwipunek</Nav.Link>
+                <Nav.Link className="mx-3" as={Link} to="/rules">Zasady</Nav.Link>
             </Navbar.Collapse>
         </Container>
     </Navbar>

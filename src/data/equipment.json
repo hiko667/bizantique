@@ -1,7 +1,14 @@
 {
     "equipment" : [
-        {"Nazwa" : "A", "Waga" : "A", "Koszt" : "A"},
-        {"Nazwa" : "", "Waga" : "", "Koszt" : ""}
+        {"Nazwa" : "Ogniwo Sulftechowe", "Opis" : "Ogniwo zasilające urządzenia Sulftechowe", "Waga" : "-", "Koszt" : "3 sm"},
+        {"Nazwa" : "Czip Magimatematyczny", "Opis" : "Podstawa wszystkich Układów Magimatematycznych", "Waga" : "-", "Koszt" : "1 sz"},
+        {"Nazwa" : "Złącze Magimatematyczne", "Opis" : "Kabel pozwalający podłączyć się do urządzeń opartych na Układach Magimatematycznych.", "Waga" : "-", "Koszt" : "1 sz"},
+        {"Nazwa" : "Granat Ręczny", "Opis" : "Po zderzeniu z ziemią wybucha, zadając 4k6 obrażeń istotom w promieniu 1.5 metra i połowę tego istotom w promieniu 3 metrów.", "Waga" : "0.3 kg", "Koszt" : "5 sz"},
+        {"Nazwa" : "Granat Dymny", "Opis" : "Po zderzeniu z ziemią wytwarza chmurę gęstego dymu w promieniu 4.5 metra od miejsca uderzenia. Obszar ten staje się obszarem z ograniczoną widocznością. Dym wywiewa po minucie", "Waga" : "0.3 kg", "Koszt" : "7 sz"},
+        {"Nazwa" : "Święty Granat Ręczny z Lasarusu", "Opis" : "Po zderzeniu z ziemią granat podświetla wszystkie istoty o charakterze Złym w promieniu 18 metrów. Wszystkie te istoty otrzymują 5k6 obrażeń od światłości. Podświetlenie trwa trzy tury", "Waga" : "0.5 kg", "Koszt" : "100 sz"},
+        {"Nazwa" : "Mina Przeciwpiechotna", "Opis" : "Zajmuje obszar 1.5 X 1.5 metra. Zakopywana pod ziemią. Gdy istota wejdzie na zajmowany przez nią obszar, mina wybucha, zadając 4k6 obrażeń od ognia. Udany test Inteligencji o ST 17 pozwala rozbroić bądź uzbroić minę", "Waga" : "1 kg", "Koszt" : "10 sz"},
+        {"Nazwa" : "Magimatematyczny Fokus Magiczny", "Opis" : "", "Waga" : "", "Koszt" : "100 sz"},
+        {"Nazwa" : "", "Opis" : "", "Waga" : "", "Koszt" : ""}
     ],
     "guns" : [
         {"Nazwa" : "Pistolet Samopowtarzalny","Cechy" : "Zacięcie(3), Precyzja(17), Magazynek(12), Zasięg(18/36)", "Obrażenia" : "k12 kłute", "Waga" : "1.1 kg", "Koszt" : "50 sz"},
@@ -23,11 +30,33 @@
     ],
     "armour" : [
         {"Nazwa" : "Maska tlenowa Straży Miejskiej","KP" : "-", "Opis" : "Strażnicy Miejscy noszą specjalne maski tlenowe zawsze, gdy zapuszczają się w regiony Podziemi i Morza Siarki. Maski filtrują szkodliwe gazy i negują wszelkie obrażenia i stany wynikające z kontaktu z nimi ", "Siła" : "-", "Skradanie Się" : "-", "Waga" : "1 kg", "Cena" : "10 sz"},
-        {"Nazwa" : "Egzoszkielet Zakonu Św. Maximusa","KP" : "+2", "Opis" : "Zasilany Magimatematycznie egzoszkielet", "Siła" : "13", "Skradanie Się" : "Utrudnienie", "Waga" : "5 kg", "Cena" : "Bezcenne"},
+        {"Nazwa" : "Egzoszkielet Zakonu Św. Maximusa model o5","KP" : "+2", "Opis" : "Zasilany Magimatematycznie egzoszkielet. Układ na jego klatce piersiowej przewiduje ruchy noszącego i stymuluje jego mięśnie impulsami elektrycznymi, przyspieszając czas reakcji i zdejmując limity mięśni.", "Siła" : "13", "Skradanie Się" : "Utrudnienie", "Waga" : "5 kg", "Cena" : "Bezcenne"},
         {"Nazwa" : "Egzoszkielet z Podziemia","KP" : "+1", "Opis" : "Marna kopia egzoszkieletów noszonych przez zakonników Św. Maximusa. Zasilana prostymi układami matematycznymi i Sulftechem", "Siła" : "13", "Skradanie Się" : "Utrudnienie", "Waga" : "10 kg", "Cena" : "120 sz"},
-        {"Nazwa" : "Kogitator Pędu","KP" : "-", "Opis" : "", "Siła" : "", "Skradanie Się" : "", "Waga" : "", "Cena" : ""}
+        {"Nazwa" : "Kogitator Pędu","KP" : "-", "Opis" : "Kogitatory pędu przypominają medaliony o średnicy około 10 cm, noszone na szyi w celu blokowania wystrzelonych pocisków. Wyryte na ich powierzchni Układy Magimatematyczne obliczają pęd obiektów naddźwiękowych w promieniu 1.5 metra od użytkownika. Kogitator blokuje wszystkie pociski, sprawiając, że noszący jest na nie niewrażliwy. Zadanie noszącemu 15 punktów obrażeń niszczy Kogitator", "Siła" : "-", "Skradanie Się" : "-", "Waga" : "0.25 kg", "Cena" : "300 sz"}
     ],
-    "implants" : [
-
+    "implants_nails" : [
+        {"Nazwa" : "Gwóźdź Kogitacyjny", "Opis" : "Gwóźdź Kogitatycjny pozwala na wykonywanie niezależnych od umysłu użytkownika procesów logicznych jak i na łączenie się z urządzeniami opartymi na płytkach Magimatematycznych (o ile użytkownik posiada także złącze – zewnętrzny kabel podpinany do gwoździa (1 sz) bądź implant pełniący tą samą rolę. Gwóźdź zapewnia ułatwienie w testach opartych na Inteligencji. Obrażenia nie mogą przerwać twojej koncentracji na zaklęciu. Implant służy także jako wewnętrzny kalkulator sił fizycznych i wartości matematycznych – działa na liczbach do 2147483647.", "Obciążenie Umysłowe" : "3", "ST Wbijania" : "14", "Utrata Inteligencji" : "2k4", "Można Ukryć" : "Nie", "Koszt" : "100 sz"},
+        {"Nazwa" : "Gwóźdź Implantu", "Opis" : "Za każdym razem gdy montujesz sobie implant musisz dodatkowo zamontować Gwóźdź Implantu pozwalający ci na kontrolowanie swojej nowej, mechanicznej części ciała. Każdy posiadany gwóźdź tego typu zmniejsza ST Wbijania kolejnego o 1. Gwoździe od bardziej zaawansowanych implantów posiadają pokrętła i przełączniki pozwalające na włączanie, wyłączanie i dostrajanie różnych funkcji urządzenia.", "Obciążenie Umysłowe" : "0", "ST Wbijania" : "6", "Utrata Inteligencji" : "k4-1", "Można Ukryć" : "Nie", "Koszt" : "10 sz"},
+        {"Nazwa" : "Gwóźdź Radiowy", "Opis" : "Gwóźdź radiowy pozwala użytkownikowi na łączenie się z częstotliwościami radiowymi odbiór i nadawanie audio bez wydawania dźwięków. Posiada antenę o długości około trzydziestu centymetrów, która wystaje z czaszki użytkownika. Długie odbieranie lub nadawanie powoduje nieznośny ból głowy. Gwóźdź radiowy w połączeniu z Gwoździem Kogitacyjnym pozwala na podłączenie się do Układu Magimatematycznego zdalnie, w zasięgu do 5 metrów", "Obciążenie Umysłowe" : "2", "ST Wbijania" : "12", "Utrata Inteligencji" : "k4+2", "Można Ukryć" : "Nie", "Koszt" : "60 sz"},
+        {"Nazwa" : "Gwóźdź Elektronowy", "Opis" : "Gwóźdź ten pozwala na niszczenie innych elementów mechanicznych lub Magimatematycznych. W ramach akcji, jeżeli widzisz osobę posiadającą implant, możesz wykonać Rzut Sporny (twoja Inteligencja przeciwko jego Inteligencji). Jeżeli cel przegra rzut, jeden z jego implantów zostaje wyłączony. Jeżeli posiadasz Gwóźdź Kogitacyjny wraz ze złączem możesz elektrycznie atakować zabezpieczenia układów Magimatematycznych. W ramach akcji ładujesz lampę elektronową, a następnie wyzwalasz impuls, który pozwala ci zmusić układ do wykonania podstawowego polecenia – otwarcie drzwi, wyłączenie ramienia Mechanicznego etc.", "Obciążenie Umysłowe" : "3", "ST Wbijania" : "15", "Utrata Inteligencji" : "2k4", "Można Ukryć" : "Nie", "Koszt" : "200 sz"},
+        {"Nazwa" : "Gwóźdź Prawdomówności", "Opis" : "Gwóźdź używany do przesłuchań, zwykle montowany wbrew woli. Ofiara musi mówić prawdę, a za każde kłamstwo gwóźdź zadaje jej 3k6 obrażeń od elektryczności. Każde takie porażenie zmniejsza Inteligencję ofiary o k4-1.", "Obciążenie Umysłowe" : "1", "ST Wbijania" : "10", "Utrata Inteligencji" : "k4", "Można Ukryć" : "Nie", "Koszt" : "10 sz"}
+    ],
+    "implants_arms" : [
+        {"Nazwa" : "Podstawowe Ramie", "Opis" : "Zastępuje utraconą rękę. Ataki wręcz wykonywane taką protezą liczą się jako ataki bronią o cesze Lekka i Finezyjna, oraz zasięgu 1.5 metra. Cel otrzymuje k6 obrażeń obuchowych. Do protezy ręki można zamontować jedną modyfikację. Modyfikacje nie wymagają dodatkowych Gwoździ Implantów.", "Obciążenie Umysłowe" : "3", "Można Ukryć" : "Nie", "Koszt" : "150 sz"},
+        {"Nazwa" : "Ramię Św. Maximusa", "Opis" : "Modyfikacja ramienia nazwana imieniem świętego patrona wojowników. Stanowi dodatkową ramę dla implantu, a także montuje dodatkowe hydrauliczne mięśnie. Siła Użytkownika rośnie o 2 (kumuluje się przy dwóch ramionach)", "Obciążenie Umysłowe" : "1", "Można Ukryć" : "Nie", "Koszt" : "70 sz"},
+        {"Nazwa" : "Ukryta Broń", "Opis" : "W implancie można ukryć dowolną broń białą", "Obciążenie Umysłowe" : "0", "Można Ukryć" : "Tak", "Koszt" : "10 sz + Koszt broni"},
+        {"Nazwa" : "Ukryta Broń Palna", "Opis" : "W implancie można ukryć dowolną krótką broń palną", "Obciążenie Umysłowe" : "1", "Można Ukryć" : "Tak", "Koszt" : "20 sz + Koszt broni"},
+        {"Nazwa" : "Kogitator", "Opis" : "Może służyć jako zegarek, pamięć podręczna, kompas lub cokolwiek na co twój MG się zgodzi. Może także pełnić funkcję złącza łączącego Gwóźdź Kogitatycjny z układem Magimatematycznym ", "Obciążenie Umysłowe" : "0", "Można Ukryć" : "Nie", "Koszt" : "20 sz"},
+        {"Nazwa" : "Ramię Pokutnika", "Opis" : "Ramię zyskuje dwa ukryte w środku grube łańcuchy, wraz z wyciągnikiem. Może służyć jako broń o zasięgu 4.5 metra, zadająca 2k4 obrażeń obuchowych, a także jako linię o długości 9 metrów, która może wciągnąć do 250 kg", "Obciążenie Umysłowe" : "1", "Można Ukryć" : "Nie", "Koszt" : "50 sz"}
+    ],
+    "implants_eyes" : [
+        {"Nazwa" : "Proteza Oka", "Opis" : "Przyjmuje formę soczewki osadzonej w grubej, metalowej ramce. Obraz otrzymywany przez umysł zwykle jest lekko zniekształcony. Zastępuje utracone oko", "Obciążenie Umysłowe" : "1", "Można Ukryć" : "Nie", "Koszt" : "30 sz"},
+        {"Nazwa" : "Oko Św. Elanii", "Opis" : "Pozwala na 50 krotne przybliżenie, co niweluje utrudnienia przy przekraczaniu zasięgu broni. Przełączając przycisk na Gwoździu Implantu kontrolującym to oko pozwala włączyć tryb wykrywania Sygnatur Magicznych – co ma taki sam efekt jak zaklęcie Wykrycie Magii. Za każą turę używania tego trybu użytkownik otrzymuje rosnące obrażenia psychiczne: najpierw 1, potem k4, potem 2k4 itd. co rundę. Włączenie trybu wykrywania nie wymaga akcji.", "Obciążenie Umysłowe" : "2", "Można Ukryć" : "Nie", "Koszt" : "150 sz"}
+    ],
+    "implants_others" : [
+        {"Nazwa" : "Stalowe Gardło", "Opis" : "Implant przypomina metalowe pudełko montowane w ustach użytkownika. Wzmacnia głos do poziomu, na którym krzyk słyszalny jest z odległości 5 kilometrów. Może zastępować mikrofon. Dodajesz wartości swojej premii z biegłości do wszystkich testów Występów", "Obciążenie Umysłowe" : "2", "Można Ukryć" : "Nie", "Koszt" : "50 sz"},
+        {"Nazwa" : "Wbudowana Maska Gazowa", "Opis" : "Dwa metalowe krążki montowane w policzkach. Mogą filtrować powietrze z wszelkich toksycznych substancji, które mogłyby zaszkodzić użytkownikowi. Wszczep zapewnia ci całkowitą redukcję obrażeń zadawanych przez gazy", "Obciążenie Umysłowe" : "1", "Można Ukryć" : "Nie", "Koszt" : "50 sz"},
+        {"Nazwa" : "Blachy", "Opis" : "Blachy to pancerz wtapiany w skórę. Zapewnia +3 do Klasy Pancerza na stałe. Nie wymaga Gwoździa Implantu", "Obciążenie Umysłowe" : "5", "Można Ukryć" : "Nie", "Koszt" : "200 sz"},
+        {"Nazwa" : "", "Opis" : "", "Obciążenie Umysłowe" : "", "Można Ukryć" : "Nie", "Koszt" : ""}
     ]
 }

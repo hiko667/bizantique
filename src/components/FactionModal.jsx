@@ -12,7 +12,7 @@ export default function FactionModal({faction, show, onHide}){
             <Modal.Body className="bg-dark text-light w-100">
                 <div className="d-flex bg-dark flex-column flex-sm-row">
                     <div className="m-3">
-                        <Image fluid thumbnail src={faction?.img !== "" ? faction?.img : "eye.png"} style={{maxWidth: "300px"}}/>
+                        <Image fluid src={faction?.img !== "" ? faction?.img : "eye.png"} style={{maxWidth: "300px"}}/>
                     </div>
                     <div className="w-100 h-100 m-3 overflow-auto">
                         {faction?.description.map((e, index) => (

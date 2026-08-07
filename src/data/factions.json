@@ -52,7 +52,7 @@
     {
         "id" : "senat",
         "name" : "Senat Bizantique",
-        "img" : "",
+        "img" : "coats/Senat_token.png",
         "short_description" : "Senat i Lud Bizantique",
         "description" : [
             {"paragraph" : "Władza", "description" : "Mimo, że Dyktator trzyma w swoich rękach i pieczęci najwyższą władzę nad Miastem Przodków, to Senat sprawuje faktyczną władzę wykonawczą. Rada składa się z pięćdziesięciu pięciu senatorów. Wybierani są w corocznych wyborach, w których Patrycjusze Biazntique głosują, popierając swoich patrones – tych, z którymi robią interesy bądź u których mają długi. Senatorem może zostać każdy humanoid, który odbył służbę wojskową, kupiecką bądź liturgiczną, oraz posiada duszę – co wyklucza świadome konstrukty. Senatorowie aktualizują Lexio Juristo (kodeks cywilny i karny)  i pełnią funkcję reprezentatywną jako ambasadorowie. "},
@@ -66,7 +66,7 @@
     {
         "id" : "rose",
         "name" : "Szara Róża",
-        "img" : "",
+        "img" : "coats/Rose_token.png",
         "short_description" : "Panie Dzielnicy Uciech",
         "description" : [
             {"paragraph" : "Ręka ręke myje", "description" : "Szara Róża jest siecią wsparcia prostytutek i artystów, funkcjonująca na terenie całego miasta. Dbają o to, by każdy z miejskich burdeli szanował swoje pracownice. Róża jest zaprzysiężonym wrogiem Koalicji, która uznaje gang za dewiację. Członkowie Szarej Róży specjalizują się w szpiegostwie, wykradaniu sekretów i produkcji trucizn. Nie przyjmują zleceń, ograniczając się do dostarczania sprawiedliwości swoim wrogom"}
@@ -80,7 +80,7 @@
     {
         "id" : "viper",
         "name" : "Kabała Żmii",
-        "img" : "",
+        "img" : "coats/Cabalah_token.png",
         "short_description" : "Zezwierzęceni Bandyci",
         "description" : [
             {"paragraph" : "Rzeź Na Wynajem", "description" : "Jeżeli ktoś w Bizantique potrzebuje mięśni do wynajęcia, zwykle zwraca się do Kabały. Gang oferuje swoje usługi każdemu, kto zapłaci wystarczająco dużo. Oczywiście, jeżeli w międzyczasie pojawi się ktoś, kto płaci więcej, Kabalici nie pogardzą zmianą strony. "},
@@ -94,7 +94,7 @@
     {
         "id" : "syndicate",
         "name" : "Syndykat",
-        "img" : "",
+        "img" : "coats/Syndicate_token.png",
         "short_description" : "Handlarze bronią",
         "description" : [
             {"paragraph" : "Żelastwo", "description" : "Syndykat jest luźno powiązaną grupą szmuglerów z Wysp Szarych, handlującą najnowszą technologią, bronią i implantami. Z racji na kaliber swoich przestępstw wolą trzymać się na uboczu, unikając oka opinii publicznej "},
@@ -110,7 +110,7 @@
     {
         "id" : "unions",
         "name" : "Związki Zawodowe",
-        "img" : "",
+        "img" : "coats/Union_token.png",
         "short_description" : "Nadzieja klasy pracującej",
         "description" : [
             {"paragraph" : "Bunt", "description" : "Populacja Bizantique powoli zaczyna wykształcać świadomość klasową, a wraz z tym wśród Plebejusze rozpoczęli formację pierwszych związków zawodowych. Miejskie Rodziny Przemysłowe obrały sobie związkowców za cel, wynajmując najemników w celu zwalczania strajków. Związki zawodowe nie są zjednoczoną siłą, a raczej wieloma rozproszonymi i zaszczutymi komórkami"}
@@ -127,12 +127,12 @@
     {
         "id" : "bardock",
         "name" : "Rodzina Bardock",
-        "img" : "",
+        "img" : "coats/Bardock_token.png",
         "short_description" : "Największa Organizacja Przestępcza",
         "description" : [
             {"paragraph" : "Powiązani", "description" : "Największa rodzina przestępcza Bizantique, składająca się ekskluzywnie z Elfów Jaskiniowych. Pochodzą z okolic Nikei, a do miasta wprowadzili się w okolicach 100 Po Upadku. Odpowiadają za połowę globalnego obrotu niewolnikami, a centrum ich operacji znajduje się w Rezydencji Bardock, potężnej, wyrytej w skale fortecy leżącej nad niedostępnym brzegiem Morza Siarki. Bardokowie kontrolują większość kasyn w mieście "},
             {"paragraph" : "Cassamir Bardock", "description" : "Obecną głową rodziny jest Cassamir Bardock, stary Drow wyniszczony Ospą Słoneczną. Jego niegdyś piękną twarz obecnie zdobią blizny wyrzeźbione brutalnym dłutem choroby. "},
-            {"paragraph" : "Władza", "description" : ""}
+            {"paragraph" : "Rodzina z Zasadami", "description" : "Mówi się, że Bardockowie są jedynym gangiem, dla któego Honor coś jeszcze znaczy"}
 
         ],
         "relations" : [

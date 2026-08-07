@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "name": "Płaszcz Zepsucia",
+        "effect": "Twoja skóra przybiera niezdrowy odcień. Każda istota, która zada ci obrażenia musi wykonać rzut obronny na Kondycję o st 13. W przypadku porażki otrzymuje k4 obrażeń od trucizny"
+    },
+    {
+        "id": 2,
+        "name": "Kopyta",
+        "effect": "Twoje stopy przybierają kształt kopyt, a nogi porastają futrem. Zyskujesz dodatkowe 3 metry ruchu"
+    },
+    {
+        "id": 3,
+        "name": "Zwierzęcy Wygląd",
+        "effect": "Zyskujesz cechę wyglądu wybranego zwierzęcia. Jedna z twoich kończyn lub par kończyn przekształca się w kończyny tego zwierzęcia. Zyskujesz biegłość w Zastraszaniu. Jeżeli już ją posiadasz, zyskujesz znawstwo. Testy Perswazji wykonujesz z utrudnieniem."
+    },
+    {
+        "id": 4,
+        "name": "Oczy Beliana",
+        "effect": "Twoja twarz pokrywa się pomarańczowymi, wiecznie otwartymi oczami. Testy percepcji oparte na wzroku wykonujesz z ułatwieniem"
+    },
+    {
+        "id": 5,
+        "name": "Klątwa Tora",
+        "effect": "Twoje ramiona i twarz wykształcają płyty z czarnego spiżu. Zyskujesz trwały bonus do +2 KP i podatność na obrażenia obuchowe"
+    },
+    {
+        "id": 6,
+        "name": "Astralne Oko",
+        "effect": "Na środku twojego czoła otwiera się fioletowe oko działające niezależnie od ciebie. Poznajesz dwie sztuczki z listy czarów Maga i zyskujesz pojedyncze Trwałe Szaleństwo"
+    },
+    {
+        "id": 7,
+        "name": "Nie Naturalne Piękno",
+        "effect": "Twoje ciało staje się smukłe, a twarz podobna do elfów. Zyskujesz biegłość (lub znawstwo, jeżeli już masz biegłość) w Perswazji i Występach. Nie jesteś w stanie spożywać normalnego jedzenia musisz żywić się surowym mięsem."
+    },
+    {
+        "id": 8,
+        "name": "Macka",
+        "effect": "Z twojego ciała wyrywa się macka. Możesz w niej trzymać przedmiot. Manipulowanie nim jest akcją darmową"
+    },
+    {
+        "id": 9,
+        "name": "Mięsista Korona",
+        "effect": "Z twojej głowy wyrzynają się mięsiste narośla przypominające rogi"
+    },
+    {
+        "id": 10,
+        "name": "Skrzydła Nietoperza",
+        "effect": "Z twoich pleców wyrasta para błoniastych, nietoperzowych skrzydeł. Pozwalają ci raz na długi odpoczynek zyskać na minutę prędkość lotu 18 metrów"
+    },
+    {
+        "id": 11,
+        "name": "Dodatkowa Twarz",
+        "effect": "Na twoim ciele pojawia się dodatkowa twarz, która posiada oddzielny umysł"
+    },
+    {
+        "id": 12,
+        "name": "Broń Biologiczna",
+        "effect": "Jedna z twoich kończyn przekształca się w dowolną Broń Białą"
+    },
+    {
+        "id": 13,
+        "name": "Demoniczny Aspekt",
+        "effect": "Twoje ciało przybiera cechy demona jednego z mrocznych bogów"
+    },
+    {
+        "id": 14,
+        "name": "Nietoperzowe Uszy",
+        "effect": "Twoje uszy mutują na kształt uszu nietoperza. Zyskujesz ślepowidzenie na odległość 18 metrów"
+    },
+    {
+        "id": 15,
+        "name": "Gigantyzm",
+        "effect": "Zyskujesz dodatkowe pół metra wzrostu. Twoja Kondycja wzrasta 2"
+    },
+    {
+        "id": 16,
+        "name": "Pajęcze Kończyny",
+        "effect": "Zyskujesz możliwość chodzenia po ścianach"
+    },
+    {
+        "id": 17,
+        "name": "Nietypowa Krew",
+        "effect": "Twoją krew zastępuje inna, wybrana przez ciebie substancja"
+    },
+    {
+        "id": 18,
+        "name": "Wężowy Język",
+        "effect": "Twój język przyjmuje formę wężowego języka"
+    },
+    {
+        "id": 19,
+        "name": "Ogon",
+        "effect": "Wyrasta ci ogon"
+    },
+    {
+        "id": 20,
+        "name": "Oskrzela",
+        "effect": "Możesz od teraz oddychać pod wodą"
+    }
+]
