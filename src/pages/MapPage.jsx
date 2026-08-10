@@ -133,7 +133,7 @@ export default function MapPage() {
                     maxBounds={bounds}
                     maxBoundsViscosity={1.0}
                     maxZoom={1}
-                    minZoom={-2}
+                    minZoom={-2} 
                     attributionControl={false}
                     style={{ height: '100%', width: '100%' }}
                 >

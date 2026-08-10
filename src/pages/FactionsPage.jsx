@@ -93,10 +93,6 @@ export default function FactionsPage() {
                     node.fz = node.z;
                 }}
                 linkColor={() => '#ffffff'}
-                linkDirectionalParticles={10}
-                linkDirectionalParticleSpeed={0.005}
-                linkDirectionalParticleColor={() => '#ffffff'}
-                linkDirectionalParticleWidth={2}
                 onNodeClick={(node, event) => handleNodeClick(node, event)}
                 nodeCanvasObject={nodeCanvasObject}
                 linkCanvasObject={linkCanvasObject}

@@ -378,13 +378,137 @@
         "img" : "https://cdnb.artstation.com/p/assets/images/images/049/422/033/large/srifez-kostyakeldaweb2.jpg?1652447986",
         "description_short" : "Dzieci Obcych Planów",
         "description" : [
-            {"paragraph" : "Pochodzenie", "description" : ""}
+            {"paragraph" : "Pochodzenie", "description" : "Do kategorii Pomiotów zaliczamy wszystkie Humanoidy zmutowane wskutek kontaktu z istotami z innych planów egzystencji. "},
+            {"paragraph" : "Diabelstwa", "description" : "Demony są astralnymi istotami służącymi Belianowi, Torowi, Namulowi i Hangronowi. Gdy manifestują się w Sferze Materialnej przybierają różne formy, oddające charakter i wygląd swoich stwórców. Przywołane demony zawsze związane są z fizycznym, żywym ciałem. Jeżeli ciało to należało do humanoida (przywołującego lub ofiary) jego linia krwii zostaje spaczona. Spaczenie nie manifestuje się od razu, czai się w sekrecie i objawia się wtedy, gdy nikt się go nie spodziewa. Klątwa dotyka pojedynczego dziecka z spaczonej linii krwi, które rodzi się jako Diabelstwo. Diabelstwa dziedziczą cechy wyglądu po demonie z którym kontakt miał ich przodek. Podejście do diabelstw różni się w zależności od regionu o którym jest mowa. W Bizantique są one traktowane jak każdy obywatel, w Slavii wypędzane na skraje społeczeństwa a w Rubii odbierane rodzicom i mordowane. "},
+            {"paragraph" : "Vesperowie", "description" : "Vesperowie stanowią bliźniacze odbicie Diabelstw. Rodzą się z linii krwi zmutowanych energią Limba, świata poza światem w którym dusze oczekują na Sąd Ostateczny. Wymiar ten jest domem Aniołów, istot służących Geistowi. Gdy dusza wpływa do Limba natychmiast wiąże się z pomniejszym Aniołem ustanawianym jako jej opiekun. Gdy jednak dusza ta zostanie z powrotem wyrwana do Sfery Materialnej, za pomocą magii, nie jest ona kompatybilna z ciałem. Ciało więc mutuje, dostosowując się do nowego kształtu duszy. Gdy wskrzeszona osoba ma dzieci, przekazuje im swoją mutację. Gdy ta z kolei manifestuje się, na świat przychodzi Vesper. Mutacje Vesperów objawiają się różnie, zależnie od tego, jaki anioł objął opieką ich przodka. Łączy ich jednak ledwo widoczna aureola, świetlisty krąg manifestujący się za głową. "}
             
         ],
         "racial_bonuses" : [
-            {"name" : "Zwiększenie cechy", "description" : ""}
+            {"name" : "Wiek", "description" : "Pomioty dorastają w takim samym wieku jak ludzie, jednak zyją parę lat dłużej"},
+            {"name" : "Charakter", "description" : "Diabelstwa i Vesperowie są równie różnorodni jak ludzie. Historia zna kryształowo dobre Diabelstwa i przeklinanych setką głosów Vesperów."},
+            {"name" : "Rozmiar", "description" : "Twój rozmiar jest średni"},
+            {"name" : "Języki", "description" : "Znasz języki Veteris i jeden dowolny język"},
+            {"name" : "Szybkość", "description" : "Twoja bazowa szybkość wynosi 9 metrów"},
+            {"name" : "Widzenie w ciemności", "description" : "Widzisz w ciemności na odległość 18 metrów."}
+
         ],
-        "subraces" : ["tiefling_belian", "tiefling_tor", "tiefling_namul", "tiefling_hangron", "vesper_winged", "vesper_eyes", "vesper_nefilim"]
+        "subraces" : ["tiefling_belian", "tiefling_tor", "tiefling_namul", "tiefling_hangrone", "vesper_winged", "vesper_eyes", "vesper_nefilim"]
+    },
+    {
+        "id" : "tiefling_belian",
+        "name" : "Diabelstwa - Ród Beliana",
+        "img" : "https://i.pinimg.com/736x/ea/7e/ae/ea7eae511d124317d3cb29b4365d029e.jpg",
+        "description_short" : "Potomkowie Księcia Demonów",
+        "description" : [
+            {"paragraph" : "Wygląd", "description" : "Diabelstwa pochodzące z Rodu Beliana przyjmują nietoperzowy wygląd, podobny do samego Księcia Demonów. Ich skóra jest szara, a oczy świecą budzącą niepokój barwą bursztynu. Rogi tych pomiotów są cienkie i sterczą ku górze, nie zawijając się. "},
+            {"paragraph" : "Krótka słomka", "description" : "Z wszystkich Diabelstw to Ród Beliana jest pogardzany w największym stopniu. Od wybuchu Wojen Wiary nawet w powszechnie uznawanych za bezpieczne regionach zaczęło dochodzić do aktów przemocy, linczów i samosądów. Diabelstwa oskarżane są o psucie jajek, sprowadzanie chorób i zabijanie dzieci, co rzadko okazuje się prawdą"}
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cech", "description" : "Wartość twojej Kondycji wzrasta o 2 a Charyzmy o 1"},
+            {"name" : "Nietoperzowe Uszy", "description" : "Twoje nietoperzowe uszy wyłapują więcej dźwięków niż przeciętne istoty. Zyskujesz biegłość w testach Percepcji, a do testów opartych na słuchu dodajesz podwójną premię z biegłości"},
+            {"name" : "Piekielna Odporność", "description" : "Masz odporność na obrażenia Nekrotyczne"},
+            {"name" : "Nietoperzowe Skrzydła", "description" : "Posiadasz parę błoniastych, nietoperzowych skrzydeł, które możesz do woli składać i rozkładać.  Nie otrzymujesz obrażeń spowodowanych upadkiem, a za każde 1.5 metra które spadasz możesz przebyć trzy metry w wybranym przez ciebie kierunku. Nie możesz w ten sposób poszybować w górę. W ciągu tury możesz poszybować do 18 metrów. Jeżeli kończysz turę szybując, na początku następnej możesz kontynuować. "}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "tiefling_tor",
+        "name" : "Diabelstwa - Ród Tora",
+        "img" : "https://i.pinimg.com/1200x/69/d7/62/69d762ce1c6129743e139abbc821b479.jpg",
+        "description_short" : "Płonąca pasja",
+        "description" : [
+            {"paragraph" : "Wygląd", "description" : "Ród Tora jest szczególnie silny na dalekiej północy, gdzie władcy barbarzyńskich plemion celowo przywołują demony chcąc umocnić swój ród. Diabelstwa wywodzące się z niego są wyraźnie wyższe i lepiej zbudowane od swoich kuzynów. Ich skóra przyjmuje barwy czerwieni i spiżu, a rogi są grube i kręcone. Żyły na ich potężnych ramionach płoną barwą rozżarzonych węgli"},
+            {"paragraph" : "Krótki Lont", "description" : "Diabelstwa Rodu Tora rodzą się z ognistym temperamentem. Choć na pierwszy rzut oka można by winić za ich to piekielne pochodzenie, rzeczywistość jest inna. Ród Tora odczuwa wszystkie doznania parokrotnie mocniej niż przeciętni ludzie, lecz przez brutalne wychowanie nie ma słów i uczuć do wyrażenia ich. "}
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cech", "description" : "Wartość twojej wzrasta o Siły 2 a Kondycji o 1"},
+            {"name" : "Determinacja", "description" : "Gdy twoje PW lub PW przyjaznej ci istoty spadnie poniżej połowy twoje ciało zaczyna płonąć żywym ogniem. Dodajesz do każdego rzutu na obrażenia od ataków wręcz k6 obrażeń od ognia. Efekt ten kończy się, gdy zostajesz uleczony. "},
+            {"name" : "Prowokacja", "description" : "Po osiągnięciu 3 poziomu poznajesz zaklęcie Prowokacja. Możesz je rzucić bez wydawania komórki czaru. Po wykorzystaniu odzyskujesz tą zdolność po zakończeniu krótkiego odpoczynku. Twoją cechą bazową dla tego zaklęcia jest Charyzma"},
+            {"name" : "Piekielna Odporność", "description" : "Zyskujesz odporność na obrażenia od ognia"}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "tiefling_namul",
+        "name" : "Diabelstwa - Ród Namula",
+        "img" : "",
+        "description_short" : "Ptasie Oko",
+        "description" : [
+            {"paragraph" : "Wygląd", "description" : "Diabelstwa z Rodu Namula przypominają wyglądem egzotyczne ptaki z pięknymi pióropuszami w barwach błękitu i fioletu. Ich szyje zdolne są do obrotu o pełne trzysta sześćdziesiąt stopni, a oczy przypominają wyglądem sowie. Rogi tych diabelstw formują się z najróżniejszych i najdziwniejszych materiałów, o miedzi, przez szkło po kryształ."},
+            {"paragraph" : "Neurotyzm", "description" : "Ród Namula postrzegany jest jako ekscentrycy o neurotycznych zachowaniach i specyficznych zainteresowaniach. "}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cech", "description" : "Wartość twojej Inteligencji wzrasta o 2 a dowolnej innej cechy o 1"},
+            {"name" : "Piekielna Odporność", "description" : "Masz odporność na obrażenia od Mocy"},
+            {"name" : "Dziedzictwo Wtajemniczenia", "description" : "Tworząc swoją postać poznajesz dowolną sztuczkę z listy zaklęć maga. Po osiągnięciu trzeciego i piątego poziomu poznajesz po jednym zaklęciu z listy czarów maga z kręgów pierwszego lub drugiego. Zaklęcia te możesz rzucić raz na długi odpoczynek bez ponoszenia kosztów w komórkach czarów. Zaklęcia te zostają dodane do twojej listy czarów i masz je zawsze przygotowane."}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "tiefling_hangrone",
+        "name" : "Diabelstwa - Ród Hangrone",
+        "img" : "",
+        "description_short" : "Baśniowe Kształty",
+        "description" : [
+            {"paragraph" : "Wygląd", "description" : "Ród Hangrone charakteryzuje się pokaźnym, rozłożystym porożem przypominającym jelenie lub łosie. Ich skóra przyjmuje barwę zieleni we wszystkich jej odcieniach, a włosy przypominają mech lub pnącza bluszczu. "},
+            {"paragraph" : "Zmiennokształtni", "description" : "Tak jak Hangrone jest bóstwem w formie pary bliźniaków, tak i diabelstwa pochodzące od nich mają wiele form. Dysponują ograniczoną formą zaklęcia Przebranie Siebie, pozwalającym na trwałe modyfikowanie swojego wyglądu. "}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cech", "description" : "Wartość twojej Mądrości wzrasta o 2 a Kondycji o 1"},
+            {"name" : "Zmiennokształtni", "description" : "W ramach akcji dodatkowej przybierasz formę innej istoty o takim samym rozmiarze jak twój. Możesz w ten sposób zmienić wygląd swoich ubrań, ciała i twarzy. Nie jest to iluzja, a forma transmutacji. Nie możesz w ten sposób zyskać ani stracić kończyn. Otrzymanie obrażeń sprawia, że wracasz do swojej pierwotnej formy."},
+            {"name" : "Piekielna Odporność", "description" : "Masz odporność na obrażenia od Trucizny"}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "vesper_winged",
+        "name" : "Veperowie - Uskrzydleni",
+        "img" : "",
+        "description_short" : "Symbol",
+        "description" : [
+            {"paragraph" : "Wygląd", "description" : "Uskrzydleni Vesperowie wywodzą się od najbliższych ludziom aniołów. Od innych humanoidów odróżnia ich para skrzydeł na plecach bądź ramionach. Forma, jaką przyjmują zależna jest od charakteru Vespera: od białych jak śnieg po kościste i pokryte gnijącym mięsem."}
+
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cech", "description" : "Wartość twojej Charyzmy wzrasta o 2 a Siły o 1"},
+            {"name" : "Leczący Dotyk", "description" : "Posiadasz zasób Punktów Wytrzymałości równy twojemu łącznemu poziomowi. W ramach akcji możesz wykorzystać część z nich by uleczyć przyjazną istotę w zasięgu dotyku. Punkty odnawiają się po ukończeniu długiego odpoczynku."},
+            {"name" : "Skrzydła", "description" : "Para skrzydeł na twoich plecach pozwala ci na lot. Gdy w ramach akcji dodatkowej rozwijasz skrzydła zyskujesz na minutę prędkość lotu równą 9 metrów. Po użyciu tej umiejętności nie możesz z niej skorzystać aż do ukończenia długiego lub krótkiego odpoczynku."}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "vesper_eyes",
+        "name" : "Veperowie - Wieloocy",
+        "img" : "",
+        "description_short" : "Wieloraki Horror",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Wieloocy Vesperzy rodzą się z ciałem pokrytym kompletem parunastu oczu, pokrywających ich twarz, ramiona i tors. Pochodzą od Tronów, monstrualnych aniołów strzegących tronu Geista i Bramy Niebios."}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cech", "description" : "Wartość twojej Mądrośći wzrasta o 2 a Inteligencji o 1"},
+            {"name" : "Wielooki", "description" : "Masz ułatwienie w wszystkich testach Percepcji opartych na wzroku. Nie możesz zostać zaskoczony"},
+            {"name" : "Lękajcie Się", "description" : "W ramach akcji możesz otworzyć wszystkie ze swoich oczu by uwolnić strach na otaczających cię wrogów. Każda nieprzyjazna istota w promieniu 9 metrów musi wykonać rzut obronny na Mądrość o ST równym 10 + twoja Charyzma. W przypadku porażki stają się tobą przerażone do końca twojej następnej tury. Możesz użyć tej umiejętności raz na długi odpoczynek. "}
+        ],
+        "subraces" : []
+    },
+    {
+        "id" : "vesper_nefilim",
+        "name" : "Veperowie - Giganci",
+        "img" : "",
+        "description_short" : "Tytani",
+        "description" : [
+            {"paragraph" : "Pochodzenie", "description" : "Vesperowie Giganci wywodzą się od Nefilimów, potężnych rozmiarem aniołów stanowiących główną siłę ofensywy sił Geista przeciwko siłom Mrocznych Bogów. Ich ciała mogą na zawołanie urosnąć do nieludzkich proporcji, a siła równa jest bogom"}
+            
+        ],
+        "racial_bonuses" : [
+            {"name" : "Zwiększenie cech", "description" : "Wartość twojej Siły wzrasta o 2 a Kondycji o 1"},
+            {"name" : "Gigantyzm", "description" : "W ramach akcji dodatkowej rośniesz do rozmiaru Dużego. Możesz tą formę utrzymać do jednej minuty. Gdy wykorzsyatsz tą umiejętność ilość razy równą twojej premii z bieglości możesz to zrobić ponownie dopiero po ukończeniu długiego odpoczynku"},
+            {"name" : "Siłacze", "description" : "Jesteś w stanie podnosić i rzucać przedmioty do pięciu razy cięższe niż wskazywałaby na to twój limit dźwigania"}
+        ],
+        "subraces" : []
     },
     {
         "id" : "halflings",

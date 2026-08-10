@@ -30,9 +30,6 @@ html {
     background-size: 200% 200%;
     text-decoration: none;
     cursor: pointer;
-    font-family: Arial, Helvetica, sans-serif;
-    /*** full width block ***/
-    /* width: 100%; */
 }
 
 .logoIcon path {
@@ -52,4 +49,43 @@ html {
     color: #7e7e7e;
     background: #dcdcdc;
     box-shadow: none;
+}
+
+
+.fade_in_element{
+    animation-name: fade_in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+}
+
+.fade_out_elemetn{
+    animation-name: fade_in;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;   
+}
+
+@keyframes fade_in {
+    0%{
+        scale: 0.7;
+        opacity: 0.1;
+    }
+    100%{
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+@keyframes fade_out {
+    0%{
+        scale: 1.4;
+    }
+    100%{
+        scale: 1;
+    }
+}
+
+.cloud {
+    
 }
