@@ -3,6 +3,8 @@ import { MapContainer, ImageOverlay, Marker, useMap, Polygon, useMapEvents } fro
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
+import { Building2Icon } from "lucide-react";
+
 import cityMarkers from "../data/markers.json";
 import cityRegions from "../data/regions.json";
 import seaMarkers from "../data/seaMarkers.json";
@@ -10,7 +12,7 @@ import seaRegions from "../data/seaRegions.json";
 import worldMarkers from "../data/worldMarkers.json";
 import worldRegions from "../data/worldRegions.json";
 
-import { Form, Image, Offcanvas } from "react-bootstrap";
+import { Form, Image, Offcanvas, Button } from "react-bootstrap";
 
 function LogClickCoords() {
     useMapEvents({
@@ -47,7 +49,7 @@ const markerIcon = new L.Icon({
 export default function MapPage() {
     const [selectedLocation, setSelectedLocation] = useState({ name: "", description: "", img: "" });
     const [isOffCanvasShowing, setIsOffCanvasShowing] = useState(false);
-    
+    const [showDistrictModal, setShowDistrictModal] = useState(false);
     const [layer, setLayer] = useState("city");
 
     const handleClose = () => setIsOffCanvasShowing(false);
@@ -108,7 +110,7 @@ export default function MapPage() {
                 >
                     <Form>
                         <Form.Group>
-                            <Form.Label>Warstwa</Form.Label>
+                            <Form.Label>Mapa</Form.Label>
                             <Form.Check 
                                 type="radio" 
                                 label="Bizantique - Miasto" 
@@ -133,13 +135,31 @@ export default function MapPage() {
                         </Form.Group>
                     </Form>
                 </div>
+                <div
+                className="bg-dark text-white p-3 rounded" 
+                    style={{
+                        width: "fit-content", 
+                        height: "fit-content", 
+                        position: "absolute", 
+                        bottom: "10px", 
+                        right: "10px", 
+                        zIndex: 1000
+                    }}
+                >
+                    <Button variant = "dark" 
+                        onClick={() => setShowDistrictModal(true)}
+                        className="d-flex flex-column align-items-center rounded p-1">
+                        <Building2Icon/>
+                        Dzielnice
+                    </Button>
+                </div>
                 <MapContainer 
                     crs={L.CRS.Simple}
                     bounds={bounds}
                     maxBounds={bounds}
                     maxBoundsViscosity={1.0}
                     maxZoom={2}
-                    minZoom={0} 
+                    minZoom={-2} 
                     attributionControl={false}
                     style={{ height: '100%', width: '100%' }}
                 >

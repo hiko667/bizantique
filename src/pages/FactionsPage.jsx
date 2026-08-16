@@ -25,8 +25,7 @@ export default function FactionsPage() {
     const [currentFaction, setCurrentFaction] = useState(null);
     const [showFactionModal, setShowFactionModal] = useState(false);
     const fgRef = useRef();
-    const hasFrozen = useRef(false); // żeby zamrozić tylko raz, przy pierwszym ustabilizowaniu
-
+    const hasFrozen = useRef(false); 
     const handleNodeClick = useCallback((node, e) => {
         setCurrentFaction(node);
         setShowFactionModal(true);
@@ -62,8 +61,6 @@ export default function FactionsPage() {
         ctx.fillText(link.label, textPos.x, textPos.y);
     }, []);
 
-    // Gdy symulacja fizyki się ustabilizuje (nody się rozejdą i przestaną poruszać),
-    // przypinamy je na stałe w aktualnych pozycjach.
     const handleEngineStop = useCallback(() => {
         if (hasFrozen.current) return;
         hasFrozen.current = true;
@@ -73,7 +70,6 @@ export default function FactionsPage() {
             node.fy = node.y;
         });
 
-        // wymusza przerysowanie z zamrożonymi pozycjami
         fgRef.current?.refresh?.();
     }, []);
 

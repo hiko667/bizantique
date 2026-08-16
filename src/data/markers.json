@@ -244,6 +244,15 @@
         "y" : 235
     },
     {
+        "id" : "port",
+        "name" : "Port Bizantique",
+        "district" : "Dzielnice Plebejuszy - Dzielnica Portowa",
+        "description" : "Do portu Bizantique przybijają statki z całego kontynentu. Jedną trzecią z nich stanowią okręty Salijskich kupców, a jedną piątą wojskowe statki Koalicji. Same miejskie doki są starożytne, zbudowane z Riheimskiego piaskowca i pokryte glonami o paskudnym odorze starych ryb. W dokach można spotkać najdziwniejszych z dziwnych, począwszy od nieznanych ras humanoidalnych, po obce ludy z niezbadanych części Ignis, takie jak kapłani kości z Czerwonej Pustyni",
+        "img" : "",
+        "x" : 1790,
+        "y" : 522
+    },
+    {
         "id" : "",
         "name" : "U",
         "district" : "Zamurze",
