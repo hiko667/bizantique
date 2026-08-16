@@ -19,15 +19,6 @@ export default function RacesPage() {
         ? races.filter((race) => currentRace.subraces.includes(race.id))
         : []
 
-    const gridStyle = {
-        display: "grid",
-        gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))",
-        gap: "20px",
-        padding: "20px",
-        maxHeight: "100vh",
-        overflowY: "auto",
-    }
-
     const onSubraceModal = (subrace) => {
         setCurrentSubrace(subrace)
         setShowSubraceModal(true)
@@ -69,29 +60,36 @@ export default function RacesPage() {
                         <h2>{currentRace.name} - podrasy</h2>
                     </div>
 
-                    <div style={gridStyle}>
+                    <div style={{display: "grid",
+                        gridTemplateColumns: "repeat(3, minmax(300px, 1fr))",
+                        gap: "10%",
+                        padding: "5%",
+                        maxHeight: "100vh",
+                        overflowY: "auto",}}>
                         {currentSubraces.map((subrace) => (
-                            <Fade in={true} dimension = "height" appear={true} key={subrace.id}>
-                                <div>
-                                    <RaceCard race={subrace} 
-                                    onClick={() => onSubraceModal(subrace)}
-                                    />
-                                </div>
-                            </Fade>
+                            <div key={subrace.id}>
+                                <RaceCard race={subrace} 
+                                onClick={() => onSubraceModal(subrace)}
+                                />
+                            </div>
                         ))}
                     </div>
                 </div>
             ) : (
-                <div style={gridStyle}>
-                    {racesWithSubraces.map((race) => (
-                        <Fade in={true} dimension = "height" appear={true} key={race.id}>
-                            <div>
-                                <RaceCard
-                                    race={race}
-                                    onClick={() => setCurrentRace(race)}
-                                />
-                            </div>
-                        </Fade>
+                <div style={{display: "grid",
+                    gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))",
+                    gap: "10%",
+                    padding: "5%",
+                    maxHeight: "100vh",
+                    overflowY: "auto",}}>
+                    {racesWithSubraces.map((race, index) => (
+                        <div key={race.id}>
+                            <RaceCard
+                                race={race}
+                                onClick={() => setCurrentRace(race)}
+                                dealDelay={index * 0.30}
+                            />
+                        </div>
                     ))}
                 </div>
             )}

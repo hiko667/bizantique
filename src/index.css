@@ -86,6 +86,19 @@ html {
     }
 }
 
-.cloud {
-    
+.playing_card {
+    animation-name: playing_card_put;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-out;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes playing_card_put {
+    0%{
+        transform: rotate3d(-1, 0, 0, 180deg);
+    }
+    100%{
+        transform: rotate3d(1, 0, 0, 0deg);
+    }
 }

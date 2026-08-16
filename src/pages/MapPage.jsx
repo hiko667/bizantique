@@ -85,6 +85,12 @@ export default function MapPage() {
                             <div className="d-flex justify-content-center">
                                 <Image src={selectedLocation.img ? selectedLocation.img : "eye.png"} thumbnail fluid />
                             </div>
+                            <h2 className="my-3">{
+                                (selectedLocation?.district && selectedLocation.district !== "") &&
+                                <>
+                                    {selectedLocation.district}
+                                </>
+                                }</h2>
                             <p className="py-3">{selectedLocation.description}</p>
                         </div>
                     </Offcanvas.Body>
@@ -132,8 +138,8 @@ export default function MapPage() {
                     bounds={bounds}
                     maxBounds={bounds}
                     maxBoundsViscosity={1.0}
-                    maxZoom={1}
-                    minZoom={-2} 
+                    maxZoom={2}
+                    minZoom={0} 
                     attributionControl={false}
                     style={{ height: '100%', width: '100%' }}
                 >

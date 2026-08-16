@@ -513,14 +513,17 @@
     {
         "id" : "halflings",
         "name" : "Niziołki",
-        "img" : "https://i.pinimg.com/736x/d6/ec/22/d6ec22b649af30694c2a96475036123d.jpg",
-        "description_short" : "Podróżnicy",
+        "img" : "https://i.pinimg.com/736x/0a/f3/98/0af398250ff7bf125dd3ae33131a6f02.jpg",
+        "description_short" : "Pierwszy Lud",
         "description" : [
-            {"paragraph" : "Pochodzenie", "description" : ""}
+            {"paragraph" : "Pochodzenie", "description" : "Niziołki są starożytnym ludem zamieszkującym Pustkowia Kaan, odcięty od centralnego Ignis region szarych pustyń i oliwnych gajów leżący za Górami Czarcimi. Funkcjonują w plemiennych społeczeństwach nomadów przemierzających pustynię pędząc stada kóz i zatrzymując się na dłuższy czas jedynie w ruinach starożytnych miast Centralnego Kaan. Niziołki są nieufne a zaakceptowanie obcych na ich ziemiach może zająć im dłuższy czas. Gdy jednak przywyknął do przybyszy stają się przyjazne i otwarte. "},
+            {"paragraph" : "Na południu", "description" : "Na południu, poza Kaan niziołki łatwo wtapiają się w społeczności i znane są ze swojego niezwykłego szczęścia. Żyją w ciasno powiązanych klanach i utrzymują stały kontakt ze swoimi kuzynami z północy. Niziołki opanowały do perfekcji sztukę wysyłania wiadomości poprzez tresowane wróble. W większych miastach utrzymują całe centra komunikacji gdzie setki ptaków wylatuje i wlatuje co godzinę."},
+            {"paragraph" : "Religie niziołków", "description" : "Religia Niziołków jest utrzymywana w sekrecie i nie bez powodu. Plemiona Kaan czczą siódemkę Archonów. Najwyższy rangą oficjele kościoła utrzymują w tajemnicy, że to właśnie te nauki natchnęły Łazarza i, że prócz Pana Aniołów istnieją też inni Archontowie. Znane imiona Archontów to: Geist, Baal, Hashim, Tvua i Muram "}
             
         ],
         "racial_bonuses" : [
-            {"name" : "Zwiększenie cechy", "description" : ""}
+            {"name" : "Języki", "description" : "Znasz języki Veteris i Kaanicki. Kaanicki jest gardłowym językiem o długich zbitkach znaków"},
+            {"name" : "Mowa ptaków", "description" : "Możesz zastąpić umiejętność z podrasy niziołka (Odporny na trucizny lub Niezauważalny) tą umiejętnością. Jesteś pod ciągłym wpływem zaklęcia Rozmawianie ze Zwierzętami. Efekt ten nie jest magiczny i nie przestaje działać pod wpływem Przeciwzaklęcia ani Antymagii"}
         ],
         "subraces" : ["none"]
     },
@@ -528,7 +531,7 @@
         "id" : "goblins",
         "name" : "Gobliny",
         "img" : "https://i.pinimg.com/1200x/89/5c/9e/895c9e4cbc92f649331a36c542a55444.jpg",
-        "description_short" : "",
+        "description_short" : "Geniusz w Prostocie",
         "description" : [
             {"paragraph" : "Pochodzenie", "description" : ""}
             
@@ -540,9 +543,9 @@
     },
     {
         "id" : "orcs",
-        "name" : "Orkowie",
+        "name" : "Orkowie o Półorkowie",
         "img" : "https://i.pinimg.com/736x/0f/0c/e6/0f0ce6f748b78788cc72fd6b151caf06.jpg",
-        "description_short" : "",
+        "description_short" : "Horda",
         "description" : [
             {"paragraph" : "Pochodzenie", "description" : ""}
             

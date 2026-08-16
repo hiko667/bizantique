@@ -3,113 +3,262 @@
     {
         "id" : "cathedral",
         "name" : "Katedra Św. Gilberta",
+        "district" : "Dzielnica Patrycjuszy",
         "description" : "Katedra Świętego Gilberta jest jednym z centralnych elementów Miasta Przodków. Założona przez pierwszego Kardynała Bizantque, wznoszona była przez niemal dwieście lat. Jej dwie bliźniacze wieże wyposażone są w kompleksowy system nagłośnienia, odpowiedzialny za wydawanie ostrzeżeń, a także informowanie mieszkańców o stanie postępów wojskowych.",
-        "img" : "",
-        "x" : 1084,
-        "y" : 900
+        "img" : "https://cdnb.artstation.com/p/assets/images/images/085/193/785/large/edouard-noisette-cathedral-02-sunset.jpg?1740392958",
+        "x" : 1556,
+        "y" : 1164
     },
     {
         "id" : "prison",
         "name" : "Odwrócona Cytadela",
-        "description" : "Miejskie więzienie, główny posterunek Straży Miejskiej. Wieża, w której stacjonują strażnicy znajduje się w głębokiej na dwieście stóp i szerokiej na sto dziurze, na której bokach wybudowano cele",
+        "district" : "Dzielnice Plebejuszy - Okrawki",
+        "description" : "Miejskie więzienie, główny posterunek Strażników Pokoju. Wieża, w której stacjonują strażnicy znajduje się w głębokiej na dwieście stóp i szerokiej na sto dziurze, na której bokach wybudowano cele",
         "img" : "https://www.insidehighered.com/sites/default/files/styles/large/public/2025-01/GettyImages-1426949475.jpg",
-        "x" : 1785,
-        "y" : 700
+        "x" : 880,
+        "y" : 553
     },
     {
-        "id" : "portaskylania",
-        "name" : "Porta Skylania",
-        "description" : "Brama Zachodu",
+        "id" : "portaores",
+        "name" : "Porta Ortes",
+        "district" : "Mury",
+        "description" : "Brama Wschodu",
         "img" : "",
-        "x" : 297,
-        "y" : 845
+        "x" : 1393,
+        "y" : 1393
     },
     {
         "id" : "portaflumen",
         "name" : "Porta Flumen",
+        "district" : "Mury",
         "description" : "Brama Rzeczna",
         "img" : "",
-        "x" : 752,
-        "y" : 207
+        "x" : 317,
+        "y" : 880
     },
     {
         "id" : "portaflumenaminora",
         "name" : "Porta Flumen Minora",
+        "district" : "Mury",
         "description" : "Mniejsza brama znajdująca się niedaleko bramy rzecznej. To nią większosć ruchu przedostaje się do bizantique",
         "img" : "",
-        "x" : 568,
-        "y" : 342
+        "x" : 271,
+        "y" : 746
     },
     {
-        "id" : "portaortes",
-        "name" : "Porta Ortes",
-        "description" : "Brama Wschodu",
+        "id" : "portaskylania",
+        "name" : "Porta Skylania",
+        "district" : "Mury",
+        "description" : "Brama Zachodu",
         "img" : "",
-        "x" : 1623,
-        "y" : 203
+        "x" : 553,
+        "y" : 1181
     },
     {
         "id" : "maximuscathedral",
         "name" : "Katedra Św. Maximusa",
-        "description" : "Brama Zachodu",
+        "district" : "Dzielnice Plebejuszy - Okrawki",
+        "description" : "Jedna z trzech katedr Dzielnic Plebejuszy, znajdująca się na nadmorskich Okrawkach. Powszechnie uznawana za świątynię wojowników, jest drugą największą katedrą w całym Bizantique. To tu, przed wyruszeniem na front żołnierze Koalicji składają przysięgi wojskowe i tu odprawiane są uroczystości nominacji senatorów. Katedra znajduje się w okolicy mostu, na którym Święty Maximus zginął powstrzymując siły hetyckich buntowników ",
         "img" : "",
-        "x" : 1698,
-        "y" : 824
+        "x" : 796,
+        "y" : 413
     },
     {
         "id" : "patriciogate",
         "name" : "Brama Dzielnicy Patrycjuszy",
-        "description" : "",
+        "district" : "Dzielnica Patrycjuszy",
+        "description" : "Bizantique posiada dwie warstwy murów obronnych – pierwsza z nich, niższa to mury zewnętrzne. Druga – mury wewnętrzne znajduje się w połowie miasta, odgradzając dzielnice Plebejuszy od dzielnic Patrycjuszy. Na straży bramy stoją elitarni funkcjonariusze Strażników Pokoju, kontrolujący wchodzących i wychodzących. Posiadanie broni jest nielegalne na terenie całego Bizantique, jednak to właśnie w Bramie Dzielnicy Patrycjuszy prawo to jest egzekwowane",
         "img" : "",
-        "x" : 879,
-        "y" : 698
+        "x" : 1233,
+        "y" : 1038
     },
     {
         "id" : "ritescathedral",
-        "name" : "Katedra Rytów Pierwszych i Ostatnich",
-        "description" : "",
+        "name" : "Katedra Pierwszych Rytów",
+        "district" : "Dzielnice Plebejuszy - Dzielnica Miedziana",
+        "description" : "Najstarsza katedra Bizantique znajduje się na północnym wschodzie miasta i umiejscowiona jest w dawnej świątyni Starych Bogów. Przez jej środek przebiegają miedziane runy odprowadzające hektolitry wody z koryta Północnej Rzeki do kanałów położonych na wzniesieniu i dostarczających wodę Dzielnicy Patrycjuszy. Nazwa katedry pochodzi od corocznego obrzędu Rytów. Związane jest ono z wizytacją Najwyższego Plebana w Bizantique i błogosławieństwem murów miejskich.",
         "img" : "",
-        "x" : 1094,
-        "y" : 291
+        "x" : 1181,
+        "y" : 1343
     },
     {
         "id" : "cathedralAmelia",
         "name" : "Katedra Św. Amelii",
-        "description" : "Brama Zachodu",
+        "district" : "Dzielnice Plebejuszy - Dzielnica Pielgrzymów",
+        "description" : "Święta Amelia, patronka cierpiących, cieszy się szczególną popularnością wśród setek pielgrzymów przybywających do Bizantique. Nie dziwne więc, że katedrze zwieńczającej Dzielnicę Pielgrzymów nadano właśnie jej imię. Pośrodku świątyni, zaraz za kamiennym ołtarzem rytualnym znajduje się wciąż odmawiające rozkładu, zakonserwowane ciało świętej, podwieszone między dwoma filarami. Amelia za życia była półelfią arystokratką, która porzuciła karierę magini by stać się uliczną kaznodziejką. Gdy Bizantique nawiedziła plaga Ospy Słonecznej w roku 522 po Upadku nakazała wiernym zawieszenie się w świątyni tak, by cierpieniem odkupić miasto. Zaraza nie ustała, a mimo to nie rozkładające się martwe ciało Amelii było wystarczającym dowodem świętości",
         "img" : "",
-        "x" : 522,
-        "y" : 1162
+        "x" : 1000,
+        "y" : 1210
     },
     {
         "id" : "choraxaltemple",
         "name" : "Świątynia Zatopionego",
-        "description" : "Brama Zachodu",
+        "district" : "Dzielnice Plebejuszy - Dzielnica Portowa",
+        "description" : "Znajdująca się w dzielnicy portowej kaplica poświęcona Zatopionemu jest miejscem czci uczęszczanym przez marynarzy z Wysp Szarych. Na kamiennej płycie ołtarza z wyłowionego z dna morskiego kamienia składają oni ofiary z własnej krwi by zapewnić sobie pomyślną podróż. Nad ołtarzem góruje potężna, obłożona kością wieloryba statua Zatopionego na jego morskim tronie. ",
         "img" : "",
-        "x" : 746,
-        "y" : 1200
-    },
-    {
-        "id" : "bardock",
-        "name" : "Sklep Muzyczny Bardock",
-        "description" : "",
-        "img" : "",
-        "x" : 692,
-        "y" : 684
+        "x" : 1722,
+        "y" : 1311
     },
     {
         "id" : "lux",
         "name" : "Lux Oculus",
+        "district" : "Dzielnice Plebejuszy - Dzielnica Portowa",
         "description" : "Wybrzeża Miasta Przodków strzeże Oko Lux, znane pod Veterijską nazwą Lux Oculus, wysoka na sto metrów latarnia. Jej ściany, w przeciwieństwie do reszty murów miejskich są regularnie bielone, tak by kontrastowała na tle piaskowcowego miasta, prowadząc statki do portu. Na szczycie wieży znajduje się seria soczewek skupiających światło słoneczne, zdolna nawet w nocy spopielić statek z odległości połowy mili",
         "img" : "",
-        "x" : 592,
-        "y" : 1258
+        "x" : 1783,
+        "y" : 1315
     },
     {
         "id" : "cementary",
         "name" : "Cmentarz Miejski",
+        "district" : "Zamurze",
+        "description" : "Cmentarz Miejski Bizantiqe podzielony jest na sekcje odpowiadające różnym rodzajom pochówku. Wyznawcy Pana Aniołów chowani są pod kamiennymi tabliczkami w północnej części, drakoni dostępują powietrznego pochówku w cmentarnej wieży, a krasnoludy palone są północnej kaplicy. Kapłani Sylvio jako jedyni odmówili współpracy i zamiast tego elfy chowają swoich zmarłych daleko za miastem. ",
+        "img" : "",
+        "x" : 355,
+        "y" : 1253
+    },
+    {
+        "id" : "goblin",
+        "name" : "Goblinie Getto",
+        "district" : "Dzielnice Plebejuszy - Goblinie Getto",
+        "description" : "Chaotyczna natura goblinów odbija się na ich architekturze. Goblinie Getto pełne jest asymetrycznych, chwiejnych i trzymających się na słowo honoru budynków. Głównymi wykorzystywanymi budulcami są drewno i barwiona tkanina, choć spotkać można i stalowe płyty, rury, stare pomniki, kamienne bloki i wiele, wiele innych. Na szczególną uwagę zasługują goblinie fabryki, będące de facto dystryktem przemysłowym Bizantique. Ten region, będący pod szczególnym nadzorem Koalicji jest nieco bardziej uporządkowany i składa się głównie ze sporych, zbudowanych z bladej cegły hal z wysokimi, przemysłowymi kominami i prostymi witrażami w okrągłych oknach",
+        "img" : "",
+        "x" : 1656,
+        "y" : 1422
+    },
+    {
+        "id" : "airport",
+        "name" : "Port Sterowców Bizantique",
+        "district" : "Dzielnice Plebejuszy - Dzielnica Pielgrzymów",
+        "description" : "Prócz portu morskiego Bizantique posiada również port sterowców. Do jego wieży regularnie przybijają statki powietrzne ze wszystkich zakątków Ignis, przewożąc szczególnie ważne zasoby i wysoko postawionych oficjeli. Wieże otaczające główną basztę portu stanowią magazyny, w których składowane są towary i zapasy. W podziemiach budynku znajduje się stacja pociągów, będąca centralnym węzłem kolejowym całego kontynentu ",
+        "img" : "",
+        "x" : 733,
+        "y" : 1283
+    },
+    {
+        "id" : "camp",
+        "name" : "Obóz Wojskowy Koalicji",
+        "district" : "Zamurze",
+        "description" : "Rekruci Koalicji, nim dostaną do rąk karabin i trafią na front trafiają najpierw do Obozu, jednostki szkoleniowej położonej na samym krańcu Zamurza. Przez miesiąc nowicjusze poddawani są łamiącym wolę i budującym ją na nowo ćwiczeniom, podczas których uczą się współpracy, słuchania rozkazów i obsługi sprzętu. Gotowy żołnierz jest w pełni zindoktrynowany i przekonany o słuszności sprawy. Weterana Obozu poznać można po spojrzeniu, skupionym i pozbawionym zawahania",
+        "img" : "",
+        "x" : 140,
+        "y" : 1251
+    },
+    {
+        "id" : "tents",
+        "name" : "Miasto Namiotowe",
+        "district" : "Zamurze - Miasto Namiotowe",
+        "description" : "Na zachodzie Bizatique, niedaleko Porta Skylandia znajduje się miasteczko namiotowe. Jest to funkcjonujący od stuleci tygiel drobnego handlu pełen zapachów, smaków i obcych kultur. Większość namiotów wykonywana jest z grubej, czerwonawej tkaniny impregnowanej tłuszczem zwierzęcym, co nadaje miasteczku charakterystyczny, mięsny zapach. Przez wieki funkcjonowania miasteczko nabrało własnej kultury. Jego mieszkańcy tworzą tak zwane familia fielda, rodziny polowe, które żyją w odgrodzonych palikami i parawanami skupiskach namiotów. Familia fielda często posiadają własne, prowizoryczne studnie, a także zagrody dla zwierząt, złożone z zdobycznego drewna.",
+        "img" : "",
+        "x" : 105,
+        "y" : 746
+    },
+    {
+        "id" : "hive",
+        "name" : "Kopiec Przemysłowców",
+        "district" : "Dzielnice Plebejuszy - Kopiec Przemysłowców",
+        "description" : "Gdy Bizantique rozpoczęło proces uprzemysłowienia, do miasta napłynęła fala robotników z całego kontynentu. W związku z ograniczonym miejscem wewnątrz murów i potrzebą mieszkania blisko zakładu pracy, dzielnica nieopodal dzielnicy przemysłowej, dawne Północne Okrawki przekształcona została w miasto - kopiec. Ludzie zaczęli budować coraz wyższe budynki, stawiając fundamenty jednych domów na dachach drugich. W dzisiejszych czasach kopiec jest zdecydowanie najgorszym miejscem do życia na powierzchni Bizantique. Pracownicy żyją w ciasnocie, a po nocach dusi ich smog z pobliskich fabryk. Wielu z nich nie ma dostępu do światła słonecznego. Najwyższe wieże Kopca, pięć Iglic zamieszkują Rodziny Przemysłowe, właściciele fabryk Bizantique wraz ze swoimi zarządcami i księgowymi.",
+        "img" : "",
+        "x" : 621,
+        "y" : 555
+    },
+    {
+        "id" : "goldenbridge",
+        "name" : "Złoty Most",
+        "district" : "Dzielnice Plebejuszy - Złoty Most",
+        "description" : "Złoty Most nazywany jest mostem tylko i wyłącznie dlatego, że można nim przekroczyć koryto Wielkiej Rzeki. Choć pierwotnie faktycznie miał być mostem, skończyło się na tym, że ludzie majacy dość tłoku dolnego miasta zaczęli budować na nim domy. Złoty Most jest dzielnicą wynalazców i inżynierów, gdzie w powietrzu unoszą się najnowsze cuda techniki, a każdy dom oświetlony jest innego rodzaju magicznym lub technologoicznym światłem",
+        "img" : "",
+        "x" : 713,
+        "y" : 917
+    },
+    {
+        "id" : "factory",
+        "name" : "Fabryki",
+        "district" : "Dzielnice Plebejuszy - Dzielnica Przemysłowa",
+        "description" : "Na terenie Bizantique funkcjonuje pięć fabryk należących do pięciu z siedmiu rodzin przemysłowych. Życie w promieniu mili od nich jest niemal nie do zniesienia, ze względu na ciągły stukot maszyn i ulatniający się z kominów smog. Pracownicy pracują w systemie dwóch zmian, od północy do południa i od południa do północy.",
+        "img" : "",
+        "x" : 357,
+        "y" : 356
+    },
+    {
+        "id" : "sealantern",
+        "name" : "Oko Łazarza",
+        "district" : "Morze",
+        "description" : "Oko Łazarza jest latarnią morską prowadzącą statki przybywające do Portu Bizantique. Jest równie stara co mury miejskie, choć od czasów Upadku do objęcia władzy przez Belisariusza Augustusa pozostawała wyłączona z użytku",
+        "img" : "",
+        "x" : 1677,
+        "y" : 336
+    },
+    {
+        "id" : "castle",
+        "name" : "Błękitna Twierdza",
+        "district" : "Dzielnica Patrycjuszy - Dystrykt Zamkowy",
+        "description" : "Błękitna Twierdza zwana jest tak przez swoje wykonane z elfiej skały ściany, zwykle białe, o zachodzie zaś przyjmujące barwę podobną do morza. Sam zamek otacza dodatkowa warstwa murów. Ich północna część znana jest jako Czarna Ściana. To tu w roku 395 a.n., po odbiciu miasta, Dyktator Belisariusz Augustus ukrzyżował pięć tysięcy Heretyków, których zaschła krew zabarwiła ścianę na jej obecny brunatny kolor",
+        "img" : "",
+        "x" : 1113,
+        "y" : 920
+    },
+    {
+        "id" : "castlepark",
+        "name" : "Park Zamkowy",
+        "district" : "Dzielnica Patrycjuszy - Dystrykt Zamkowy",
+        "description" : "Błękitną twierdzę otacza park, w którym najważniejsi oficerowie Koalicji mogą się zrelaksować i zaczerpnąć świeżego powietrza",
+        "img" : "",
+        "x" : 1221,
+        "y" : 910
+    },
+    {
+        "id" : "office",
+        "name" : "Wieża Urzędników",
+        "district" : "Dzielnica Patrycjuszy",
+        "description" : "Zarządzanie Koalicją i Bizantique wymaga pracy tysięcy urzędników i księgowych. Dzięki nim linie produkcyjne nie stają, a machina wojenna toczy się dalej. Cała administracja Koalicji skupiona jest w Wieży Urzędników, potężnej baszcie zaraz obok forum Dzielnicy Patrycjuszy. W piwnicach budynku znajduje się Centrum Komunikacji Magimatematycznej, gdzie podłączeni do układów urzędnicy bezustannie przesyłają i odbierają komunikaty z peryferiów krain człowieka. Z samej wieży wychodzą setki kabli, stanowiących estetyczne poświęcenie i najbrzydszy widok Dzielnicy Patrycjuszy",
+        "img" : "",
+        "x" : 1490,
+        "y" : 1140
+    },
+    {
+        "id" : "senat",
+        "name" : "Senat",
+        "district" : "Dzielnica Patrycjuszy - Forum",
+        "description" : "Budynek Senatu jest dawnym budynkiem Rady Baronów. Pięćdziesięciu Pięciu senatorów urzęduje w dużej hali na wzór amfiteatru, gdzie dzień w dzień głosują nad ustawami i podejmują decyzje nad aktualnymi problemami. Budynek senatu jest stałym celem ataków wandali z podziemnych, młodzieżowych gangów",
+        "img" : "",
+        "x" : 1319,
+        "y" : 981
+    },
+    {
+        "id" : "university",
+        "name" : "Uniwersytet Kardynalski",
+        "district" : "Dzielnica Patrycjuszy - Dystrykt Uniwersytecki",
+        "description" : "Uniwersytet Kardynalski jest najlepszą uczelnia na terenach Koalicji. Utworzony niedługo po Upadku Beliana szkoli studentów w trzech katedrach: Colegium Militum, katrze wojskowej, Colegium Sacrum, katedrze teologii, sztuki i historii oraz Colegium Hermetica, katedrze sztuk wyzwolonych. Wejścia na kampus strzeże potężny i starożytny kamienny łuk triumfalny zbudowany jeszcze za czasów Dominium",
+        "img" : "",
+        "x" : 1266,
+        "y" : 1121
+    },
+    {
+        "id" : "pipes",
+        "name" : "Ujście Kanałów Miejskich",
+        "district" : "Zamurze",
+        "description" : "Wszystkie ścieki Bizantique trafiają do morza. Ołowiane rury, którymi nieczystości spływają z wyższych części miasta stanowią jedyny powszechnie znany sposób na dostanie się do podziemi miasta. Osoby w najmniejszym stopniu wtajemniczone znają jednak miriady innych wejść, a Ujście Kanałów uznawane jest za wejście amatorów i Strażników Pokoju ",
+        "img" : "",
+        "x" : 944,
+        "y" : 235
+    },
+    {
+        "id" : "",
+        "name" : "U",
+        "district" : "Zamurze",
         "description" : "",
         "img" : "",
-        "x" : 38,
-        "y" : 437
+        "x" : 0,
+        "y" : 0
+    },
+    {
+        "id" : "arena",
+        "name" : "Arena",
+        "district" : "",
+        "description" : "Najpopularniejszą aktywnością publiczną są różnorakie wydarzenia sportowe. Większość z nich ma miejsce w Amphiteatrum Athleticum, amfiteatrze atletycznym, Zwanym też po prostu Areną. Położona na zachodnich zamurzach elipsowata budowla, zdolna pomieścić blisko osiemdziesiąt tysięcy kibiców wzniesiona została z podobnego piaskowca, z którego powstały mury miejskie. Trzy razy w tygodniu odbywają się tam wydarzenia sportowe: walki gladiatorów, wyścigi rydwanów, a także nowsze dyscypliny, przywiezione z Thanii, takie jak piłka nożna.",
+        "img" : "https://i.pinimg.com/736x/3c/f7/36/3cf7369226e7403d8f60ad4e10ca88e2.jpg",
+        "x" : 597,
+        "y" : 1020
     }
 ]
